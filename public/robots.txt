@@ -1,0 +1,8 @@
+User-agent: *
+
+Disallow: /locations/undefined
+Disallow: /cdn-cgi/l/email-protection
+Disallow: /new-main
+
+Sitemap: https://starvanlinesmovers.com/sitemap.xml
+Host: https://starvanlinesmovers.com/

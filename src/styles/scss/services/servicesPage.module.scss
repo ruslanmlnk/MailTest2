@@ -1,0 +1,9 @@
+.testimonials {
+	max-width: 1380px;
+	padding: 100px 0 0;
+}
+@media only screen and (max-width: 768px) {
+	.testimonials {
+		padding: 80px 20px 0;
+	}
+}

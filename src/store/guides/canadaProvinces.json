@@ -1,0 +1,80 @@
+[
+	{
+		"id": "CA01",
+		"val": "CA01",
+		"slug": "alberta",
+		"name": "Alberta"
+	},
+	{
+		"id": "CA02",
+		"val": "CA02",
+		"slug": "british-columbia",
+		"name": "British Columbia"
+	},
+	{
+		"id": "CA03",
+		"val": "CA03",
+		"slug": "manitoba",
+		"name": "Manitoba"
+	},
+	{
+		"id": "CA04",
+		"val": "CA04",
+		"slug": "new-brunswick",
+		"name": "New Brunswick"
+	},
+	{
+		"id": "CA05",
+		"val": "CA05",
+		"slug": "newfoundland-and-labrador",
+		"name": "Newfoundland & Labrador"
+	},
+	{
+		"id": "CA06",
+		"val": "CA06",
+		"slug": "northwest-territories",
+		"name": "Northwest Territories"
+	},
+	{
+		"id": "CA07",
+		"val": "CA07",
+		"slug": "nova-scotia",
+		"name": "Nova Scotia"
+	},
+	{
+		"id": "CA08",
+		"val": "CA08",
+		"slug": "ontario",
+		"name": "Ontario"
+	},
+	{
+		"id": "CA09",
+		"val": "CA09",
+		"slug": "prince-edward-island",
+		"name": "Prince Edward Island"
+	},
+	{
+		"id": "CA10",
+		"val": "CA10",
+		"slug": "quebec",
+		"name": "Quebec"
+	},
+	{
+		"id": "CA11",
+		"val": "CA11",
+		"slug": "saskatchewan",
+		"name": "Saskatchewan"
+	},
+	{
+		"id": "CA12",
+		"val": "CA12",
+		"slug": "yukon",
+		"name": "Yukon Territory"
+	},
+	{
+		"id": "CA13",
+		"val": "CA13",
+		"slug": "nunavut",
+		"name": "Nunavut"
+	}
+] 

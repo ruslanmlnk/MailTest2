@@ -1,0 +1,524 @@
+.container {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0;
+	overflow-y: auto;
+
+	margin-top: 0;
+
+	h2 {
+		font-weight: 700;
+		font-size: 50px;
+		line-height: 40px;
+		text-align: center;
+	}
+
+	> div {
+		display: flex;
+		justify-content: space-between;
+		gap: 40px;
+		margin-top: 40px;
+
+		> div {
+			> h3 {
+				font-weight: 700;
+				font-size: 20px;
+			}
+		}
+
+		.addItems {
+			width: 430px;
+
+			.search {
+				position: relative;
+				border: 1px solid #3a3b4140;
+				padding: 0 20px;
+				border-radius: 25px;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				width: 100%;
+				margin-top: 20px;
+
+				> div {
+					width: 100%;
+
+					label {
+						pointer-events: none;
+						font-style: normal;
+						opacity: 0.5;
+						position: absolute;
+						left: 20px;
+						top: 22px;
+						transition: 0.3s;
+
+						&.labelMobile {
+							display: none;
+						}
+					}
+
+					input {
+						z-index: 1;
+						font-size: 16px;
+						border-radius: 0 !important;
+						border: 0;
+						width: 100%;
+						height: 65px;
+						background-color: transparent;
+						padding-bottom: 0px;
+						padding-left: 0;
+
+						&:focus,
+						&:not(:placeholder-shown),
+						&:focus-within {
+							outline: none;
+							border: 0;
+
+							~ label {
+								font-size: 15px;
+								top: 10px;
+								transition: 0.3s;
+							}
+						}
+					}
+				}
+			}
+
+			.categories {
+				position: relative;
+				width: 100%;
+
+				> .input {
+					position: relative;
+					border: 1px solid #3a3b4140;
+					padding: 0 20px;
+					border-radius: 25px;
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					width: 100%;
+					margin-top: 20px;
+					height: 65px;
+					cursor: pointer;
+					transition: 0.5s;
+
+					&.opened {
+						background-color: #f1f4ff;
+						border-radius: 25px 25px 0 0;
+						border: 1px solid transparent;
+						transition: 0.5s;
+
+						> img {
+							transition: 0.5s;
+							transform: rotate(180deg);
+						}
+					}
+
+					> p {
+						font-weight: 700;
+						opacity: 0.5;
+					}
+
+					> img {
+						transition: 0.5s;
+						transform: rotate(0deg);
+					}
+				}
+
+				.dropdown {
+					position: absolute;
+					top: 65px;
+					background-color: #f1f4ff;
+					padding: 0 30px 30px 15px;
+					opacity: 0;
+					height: 0;
+					pointer-events: none;
+					transition: 0.5s;
+					width: 100%;
+					display: flex;
+					flex-direction: column;
+					border-radius: 0 0 25px 25px;
+					gap: 10px;
+					overflow-y: scroll;
+
+					&.opened {
+						transition: 0.5s;
+						height: 200px;
+						opacity: 1;
+						pointer-events: all;
+					}
+
+					> div {
+						display: flex;
+						align-items: center;
+						width: 100%;
+						height: 40px;
+						cursor: pointer;
+						border-radius: 10px;
+						padding: 10px 10px;
+
+						&:hover {
+							background-color: #e2e8ff;
+						}
+					}
+				}
+			}
+
+			.items {
+				max-height: 200px;
+				width: 100%;
+				overflow-y: auto;
+				border-radius: 25px;
+				padding: 25px;
+				opacity: 0;
+				margin-top: 20px;
+				display: flex;
+				flex-direction: column;
+				gap: 10px;
+				border: 1px solid #3a3b4140;
+				border-radius: 25px;
+
+				&.active {
+					opacity: 1;
+				}
+
+				.item {
+					display: flex;
+					align-items: center;
+					gap: 15px;
+					padding: 10px 10px;
+					border-radius: 10px;
+					height: 40px;
+					width: 100%;
+					cursor: pointer;
+
+					&:hover {
+						background-color: #e2e8ff;
+					}
+				}
+			}
+		}
+
+		.inventory {
+			.table {
+				max-height: 435px;
+				width: 650px;
+				margin-top: 20px;
+				border: 1px solid #436ae5;
+				border-radius: 25px;
+				display: flex;
+				flex-direction: column;
+				overflow: hidden;
+
+				.rows {
+					height: 230px;
+					overflow-y: auto;
+					display: flex;
+					flex-direction: column;
+					gap: 15px;
+				}
+
+				.rowMobile {
+					display: none;
+				}
+
+				.row {
+					padding: 0 25px;
+					display: grid;
+					grid-template-columns: max-content repeat(2, 1fr);
+					align-items: center;
+
+					&.topbar,
+					&.bottombar {
+						height: 70px;
+						align-items: center;
+					}
+
+					&.topbar {
+						> label {
+							display: flex;
+							cursor: pointer;
+						}
+
+						> p {
+							font-weight: 700;
+							color: #616161;
+						}
+					}
+
+					label {
+						cursor: pointer;
+						display: flex;
+
+						span {
+							width: 20px;
+							height: 20px;
+							margin-right: 20px;
+							border: 1px #436ae5 solid;
+							border-radius: 5px;
+							background-color: transparent;
+							position: relative;
+
+							input[type='checkbox'] {
+								width: 0;
+								height: 0;
+								opacity: 0;
+								display: none;
+								position: absolute;
+								top: 0;
+								left: 0;
+							}
+
+							&:has(input[type='checkbox']:checked) {
+								background-image: url('../../../../public/images/calculator/checkbox-checked.svg');
+								background-size: cover;
+								background-color: #436ae5;
+								background-position: center;
+							}
+						}
+					}
+
+					.quantity {
+						display: flex;
+						align-items: center;
+						gap: 25px;
+
+						.counterController {
+							width: 20px;
+							height: 20px;
+							display: flex;
+							justify-content: center;
+							align-items: center;
+							border-radius: 5px;
+							background-color: #436ae5;
+							cursor: pointer;
+						}
+
+						> p {
+							text-align: center;
+							width: 30px;
+						}
+					}
+
+					&.bottombar {
+						display: grid;
+						grid-template-columns: repeat(2, 1fr) max-content;
+						background-color: #f1f4ff;
+
+						p {
+							color: #515872;
+							font-weight: 400;
+
+							span {
+								font-weight: 600;
+							}
+						}
+
+						img {
+							cursor: pointer;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.container {
+		width: 100%;
+		padding-bottom: 0;
+
+		h2 {
+			font-size: 28px;
+			line-height: 36px;
+			text-align: center;
+			padding: 0 20px;
+		}
+
+		> div {
+			flex-direction: column;
+			gap: 30px;
+			margin-top: 30px;
+
+			> div {
+				> h3 {
+					font-size: 15px;
+				}
+			}
+
+			.addItems {
+				padding: 0 20px;
+				width: 100%;
+
+				.search {
+					margin-top: 15px;
+
+					> div {
+						width: 100%;
+
+						label {
+							font-weight: 400;
+						}
+
+						input {
+							height: 60px;
+						}
+					}
+				}
+
+				.categories {
+					> .input {
+						height: 60px;
+
+						> p {
+							font-weight: 400;
+						}
+					}
+
+					.dropdown {
+						top: 60px;
+					}
+				}
+			}
+
+			.inventory {
+				padding: 0 20px;
+
+				.table {
+					max-height: 768px;
+					width: 100%;
+
+					.rows {
+						height: 230px;
+						overflow-y: auto;
+						display: flex;
+						flex-direction: column;
+						gap: 15px;
+					}
+
+					.row {
+						display: none;
+
+						&.bottombar {
+							display: none !important;
+						}
+					}
+
+					.rowMobile {
+						padding: 0 25px;
+						display: grid;
+						grid-template-columns: max-content repeat(1, 1fr);
+
+						&.topbar,
+						&.bottombar {
+							height: 70px;
+							align-items: center;
+						}
+
+						&.topbar {
+							> label {
+								display: flex;
+								cursor: pointer;
+							}
+
+							> p {
+								font-weight: 700;
+								color: #616161;
+							}
+						}
+
+						.itemDataMobile {
+							display: flex;
+							flex-direction: column;
+							gap: 5px;
+						}
+
+						label {
+							cursor: pointer;
+							display: flex;
+
+							span {
+								margin-top: 2px;
+								width: 20px;
+								height: 20px;
+								margin-right: 20px;
+								border: 1px #436ae5 solid;
+								border-radius: 5px;
+								background-color: transparent;
+
+								input[type='checkbox'] {
+									width: 0;
+									height: 0;
+									opacity: 0;
+									display: none;
+									position: absolute;
+									top: 0;
+									left: 0;
+								}
+
+								&:has(input[type='checkbox']:checked) {
+									background-image: url(../../../../public/images/calculator/checkbox-checked.svg);
+									background-size: cover;
+									background-color: #436ae5;
+									background-position: center;
+								}
+							}
+						}
+
+						.quantity {
+							display: flex;
+							align-items: center;
+							gap: 25px;
+
+							.counterController {
+								width: 20px;
+								height: 20px;
+								display: flex;
+								justify-content: center;
+								align-items: center;
+								border-radius: 5px;
+								background-color: #436ae5;
+								cursor: pointer;
+							}
+
+							> p {
+								text-align: center;
+								width: 30px;
+							}
+						}
+
+						&.bottombarMobile {
+							display: flex;
+							justify-content: space-between;
+							align-items: center;
+							background-color: #f1f4ff;
+							padding: 25px 25px;
+
+							div {
+								display: flex;
+								flex-direction: column;
+								gap: 5px;
+
+								p {
+									color: #515872;
+									font-weight: 400;
+
+									span {
+										font-weight: 600;
+									}
+								}
+							}
+
+							img {
+								cursor: pointer;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

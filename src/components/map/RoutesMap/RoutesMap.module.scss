@@ -1,0 +1,9 @@
+.map {
+	height: 285px;
+	border-radius: 25px;
+	margin-bottom: 50px;
+
+	@media (max-width: 768px) {
+		border-radius: 10px;
+	}
+}

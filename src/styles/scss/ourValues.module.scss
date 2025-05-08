@@ -1,0 +1,254 @@
+.section {
+	background-color: #436ae5;
+	padding: 140px 0;
+	margin-top: 140px;
+
+	.container {
+		margin-top: 0;
+
+		.header {
+			display: flex;
+			justify-content: space-between;
+
+			.title {
+				h2 {
+					margin-top: 30px;
+					color: #fff;
+					white-space: pre-line;
+
+					span {
+						position: relative;
+
+						&::before {
+							position: absolute;
+							right: -115%;
+							top: -35%;
+							width: 100%;
+							height: 100%;
+							content: '';
+							background-image: url('../../../public/images/about/ourValues/values-bg.svg');
+							background-repeat: no-repeat;
+							background-size: contain;
+						}
+					}
+				}
+			}
+		}
+
+		.contentMobile {
+			display: none;
+		}
+
+		.content {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 20px;
+			justify-content: space-between;
+			margin-top: 60px;
+
+			.slide {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				max-width: 100%;
+				width: 100%;
+				overflow: hidden;
+				border-radius: 25px;
+
+				.image {
+					border-radius: 25px;
+					overflow: hidden;
+					width: 100%;
+					max-height: 280px;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					> img {
+						transition: 0.3s;
+						height: 100%;
+						object-fit: cover;
+						z-index: 0;
+						&:hover {
+							transform: scale(1.1);
+						}
+					}
+				}
+
+				.text {
+					z-index: 2;
+					border-radius: 25px;
+					margin-top: -15%;
+					padding: 40px;
+					background: #fff;
+					max-width: 90%;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+
+
+					p,
+					h3 {
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+}
+.preTitle {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 23.4px;
+	color: #f58d1d;
+	text-transform: uppercase;
+}
+.cardTitle {
+	font-size: 1.75rem;
+	font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+	.cardTitle {
+		font-size: 1.8125rem;
+		text-align: center;
+	}
+	.preTitle {
+		font-size: 10px;
+		line-height: 1.2;
+	}
+	.section {
+		margin-top: 80px;
+		padding: 80px 0;
+
+		.container {
+			.content {
+				display: none;
+			}
+
+			.contentMobile {
+				display: block;
+
+				margin-top: 45px;
+
+				.swiper {
+					> div > div {
+						height: auto;
+					}
+
+					.slide {
+						display: flex;
+						flex-direction: column;
+						align-items: center;
+						max-width: 100%;
+						overflow: hidden;
+						border-radius: 25px;
+
+						.image {
+							display: flex;
+							justify-content: center;
+							border-radius: 25px;
+							overflow: hidden;
+							width: 100%;
+							height: 280px;
+
+							> img {
+								height: 100%;
+								object-fit: cover;
+							}
+						}
+
+						.text {
+							border-radius: 25px;
+							margin-top: -20%;
+							padding: 25px;
+							background: #fff;
+							max-width: 90%;
+
+							display: flex;
+							flex-direction: column;
+							align-items: center;
+
+							p,
+							h3 {
+								text-align: center;
+							}
+						}
+					}
+				}
+
+				.header {
+					.title {
+						h2 {
+							margin-top: 10px;
+							white-space: normal;
+
+							br {
+								display: none;
+							}
+						}
+					}
+
+					.buttons {
+						display: none;
+					}
+				}
+
+				.buttons {
+					display: inherit;
+					align-self: flex-end;
+					justify-content: center;
+					margin-bottom: 0;
+					display: flex;
+					margin-top: 25px;
+					gap: 20px;
+
+					> div {
+						cursor: pointer;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						width: 60px;
+						height: 60px;
+						background-color: #f1f4ff;
+						border-radius: 10px;
+						transition: 0.3s;
+
+						> img {
+							position: absolute;
+							width: 15px;
+						}
+
+						&:nth-child(1) {
+							&:hover {
+								background-color: #f58d1d;
+								transform: translateY(-2px);
+
+								> img {
+									filter: brightness(100);
+								}
+							}
+						}
+
+						&:nth-child(2) {
+							background-color: #f58d1d;
+
+							> img {
+								filter: brightness(100);
+								transform: rotate(180deg);
+							}
+
+							&:hover {
+								background-color: #f1f4ff;
+								transform: translateY(-2px);
+
+								> img {
+									filter: brightness(0);
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

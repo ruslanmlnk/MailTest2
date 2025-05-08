@@ -1,0 +1,161 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 60px;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+
+	br {
+		display: none;
+	}
+
+	> div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+	}
+
+	.title_text {
+		color: var(--secondary-color);
+		font-weight: 700;
+	}
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
+
+.card {
+	display: flex;
+	align-items: center;
+	gap: 40px;
+	background: #f1f4ff;
+	border-radius: 25px;
+	padding: 40px;
+	height: auto;
+
+	cursor: pointer;
+
+	.content {
+		display: grid;
+		grid-template-rows: 0fr;
+		transition:
+			grid-template-rows 0.3s ease,
+			margin-top 0.3s ease;
+	}
+
+	p {
+		overflow: hidden;
+	}
+
+	.cross {
+		min-width: 70px;
+		min-height: 70px;
+		max-height: 70px;
+		max-width: 70px;
+
+		align-self: flex-start;
+
+		background: #436ae5;
+		border-radius: 10px;
+
+		position: relative;
+
+		.line1,
+		.line2 {
+			width: 24px;
+			height: 3px;
+			background: #fff;
+			border-radius: 1px;
+
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			margin: auto;
+			transition: 0.3s ease;
+		}
+	}
+	.line2 {
+		transform: rotate(-90deg);
+	}
+
+	&.open {
+		transition: 0.3s;
+
+		align-items: flex-start;
+
+		.content {
+			margin-top: 10px;
+			grid-template-rows: 1fr;
+		}
+
+		p {
+			pointer-events: all;
+		}
+
+		.line2 {
+			transform: rotate(0deg);
+		}
+	}
+}
+.question {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+@media only screen and (max-width: 768px) {
+	.title {
+		> div {
+			gap: 10px;
+			align-items: flex-start;
+			text-align: left;
+		}
+		gap: 12px;
+
+		b {
+			color: #436ae5;
+		}
+
+		br {
+			display: flex;
+		}
+	}
+
+	.grid {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.card {
+		flex-direction: row-reverse;
+		gap: 15px;
+
+		padding: 25px 20px;
+
+		.question {
+			font-size: 16px;
+		}
+
+		.cross {
+			min-width: 40px;
+			min-height: 40px;
+			max-height: 40px;
+			max-width: 40px;
+
+			.line1,
+			.line2 {
+				width: 14px;
+				height: 2px;
+			}
+		}
+	}
+}

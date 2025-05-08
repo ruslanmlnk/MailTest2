@@ -1,0 +1,236 @@
+.section {
+	background-color: #436ae5;
+	padding: 100px 0;
+
+	.container {
+		margin-top: 0;
+		.buttons {
+			display: none;
+		}
+
+		.header {
+			width: 100%;
+			padding: 0 200px;
+
+			h4 {
+				width: auto;
+				font-size: 18px;
+				font-weight: 700;
+				line-height: 23px;
+				letter-spacing: 0em;
+				text-align: center;
+			}
+
+			h2 {
+				font-size: 54px;
+				font-weight: 700;
+				line-height: 68px;
+				letter-spacing: 0em;
+				color: #fff;
+				text-align: center;
+				margin-top: 15px;
+
+				span {
+					position: relative;
+
+					&::before {
+						position: absolute;
+						top: -5px;
+						left: -2px;
+						content: '';
+						background-image: url('../../../../public/images/mainPage/carefullTransportation/underline.svg');
+						width: 102%;
+						height: 100%;
+						background-repeat: no-repeat;
+						background-position: bottom;
+						background-size: contain;
+						z-index: -1;
+					}
+				}
+			}
+
+			p {
+				color: #fff;
+				text-align: center;
+				margin-top: 20px;
+				font-size: 18px;
+				font-weight: 400;
+				line-height: 30px;
+				letter-spacing: 0em;
+			}
+		}
+	}
+
+	.blockText {
+		padding-top: 65px;
+
+		.text {
+			border-radius: 25px;
+			margin-top: 25px;
+			background-color: #fff;
+			width: 1320px;
+			height: 300px;
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			align-items: center;
+			justify-items: center;
+			transition: opacity 0.3s;
+
+			&.hidden {
+				opacity: 0;
+				pointer-events: none;
+			}
+
+			.textMain {
+				margin-left: 30px;
+				width: 875px;
+				display: flex;
+				flex-direction: column;
+			}
+
+			img {
+				border-radius: 25px;
+				margin-left: 15px;
+				width: 325px;
+				height: 270px;
+			}
+
+			h2 {
+				padding-bottom: 15px;
+				font-size: 28px;
+				font-weight: 700;
+				line-height: 39px;
+				letter-spacing: 0em;
+				text-align: left;
+				color: #272727;
+			}
+
+			p {
+				font-size: 18px;
+				font-weight: 400;
+				line-height: 30px;
+				letter-spacing: 0em;
+				text-align: left;
+				color: #616161;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.section {
+		background-color: #436ae5;
+		padding: 35px 0;
+		margin-top: -40px;
+
+		.container {
+			margin-top: 40px;
+
+			.buttons {
+				margin-top: 50px;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				button {
+					font-size: 18px;
+					font-weight: 500;
+					line-height: 23px;
+					letter-spacing: 0em;
+					width: -webkit-fill-available;
+					height: 55px;
+					margin-bottom: 15px;
+					background-color: #fff;
+					color: #272727;
+					border: none;
+					border-radius: 10px;
+
+					&:focus {
+						background-color: #f58d1d;
+						color: #fff;
+					}
+					&:active {
+						background-color: #f58d1d;
+						color: #fff;
+					}
+				}
+			}
+
+			.header {
+				width: 100%;
+				padding: 0;
+
+				h4 {
+					text-align: left;
+				}
+
+				h2 {
+					width: auto;
+					font-size: 34px;
+					font-weight: 700;
+					line-height: 43px;
+					letter-spacing: 0em;
+					color: #fff;
+					text-align: left;
+					margin-top: 15px;
+
+					span {
+						position: relative;
+
+						&::before {
+							position: absolute;
+							top: -5px;
+							left: -2px;
+							content: '';
+							background-image: url('../../../../public/images/mainPage/carefullTransportation/underline.svg');
+							width: 102%;
+							height: 100%;
+							background-repeat: no-repeat;
+							background-position: bottom;
+							background-size: contain;
+							z-index: -1;
+						}
+					}
+				}
+
+				p {
+					color: #fff;
+					text-align: left;
+					margin-top: 20px;
+				}
+			}
+		}
+
+		.blockText {
+			padding-top: 25px;
+			.text {
+				border-radius: 25px;
+				background-color: #fff;
+				width: auto;
+				height: auto;
+				display: grid;
+				grid-template-columns: none;
+				align-items: start;
+				justify-content: center;
+
+				.textMain {
+					padding-top: 50px;
+					padding-left: 25px;
+					width: auto;
+					display: flex;
+					flex-direction: column;
+					padding-right: 25px;
+					padding-bottom: 65px;
+					margin-left: 0;
+				}
+
+				img {
+					margin-left: 0;
+					margin-top: 25px;
+					width: 325px;
+					height: 270px;
+					padding: 20px;
+				}
+			}
+		}
+	}
+}

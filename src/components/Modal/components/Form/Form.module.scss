@@ -1,0 +1,192 @@
+.reviewBtn {
+	width: 310px;
+	height: 70px;
+	border-radius: 10px;
+	gap: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #f58d1d;
+	border: none;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.1;
+}
+
+.full {
+	width: 100%;
+}
+
+.form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	& input,
+	& textarea {
+		border: 2px solid #dedfe0;
+		&:focus {
+			border-color: #436ae5;
+		}
+		&:hover {
+			border-color: #436ae5;
+		}
+	}
+	& textarea {
+		// max-height: 162px;
+		height: 212px;
+	}
+}
+
+.wrapper {
+	display: flex;
+	gap: 100px;
+	width: 100%;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.DialogTitle {
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 1.4;
+}
+
+.modalHead {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	margin-bottom: 50px;
+}
+
+.topForm {
+	display: flex;
+	gap: 10px;
+}
+
+.inptWrapp {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 100%;
+	& label {
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 1.5;
+	}
+}
+
+.fileInpt {
+	border-style: dashed !important;
+	cursor: pointer;
+	&:valid {
+		border-color: #436ae5;
+	}
+	& button {
+		background: red;
+	}
+}
+
+.disabled {
+	background: rgb(184, 183, 183);
+	opacity: 0.7;
+}
+
+.reviewBtn svg {
+	transition: all 300ms ease-out;
+}
+
+.reviewBtn:hover svg {
+	transform: translateX(5px);
+}
+
+.name {
+	margin-bottom: 50px;
+	width: 100%;
+}
+
+.left {
+	flex-basis: 50%;
+	flex-grow: 1;
+	width: 100%;
+}
+
+.right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-basis: 50%;
+	width: 100%;
+	gap: 50px;
+	flex-grow: 1;
+}
+
+.icon {
+	position: absolute;
+	bottom: 12px;
+	left: 15px;
+}
+
+.topForm {
+	& input {
+		padding-left: 60px;
+	}
+}
+
+@media (max-width: 980px) {
+	.wrapper {
+		flex-direction: column;
+		gap: 20px;
+	}
+}
+
+@media (max-width: 768px) {
+	.topForm {
+		flex-direction: column;
+		gap: 20px;
+		& img {
+			width: 30px;
+			height: 30px;
+		}
+	}
+	.form {
+		gap: 20px;
+		& input {
+			height: 50px;
+		}
+		& textarea {
+			height: 162px;
+		}
+	}
+	.reviewBtn {
+		height: 45px;
+		font-size: 14px;
+	}
+	.name {
+		margin-bottom: 20px;
+	}
+	.right {
+		gap: 20px;
+	}
+	.modalHead {
+		margin-bottom: 35px;
+		gap: 15px;
+	}
+	.DialogTitle {
+		font-size: 16px;
+	}
+	.inptWrapp {
+		gap: 6px;
+		& label {
+			font-size: 12px;
+		}
+	}
+}
+
+@media (max-width: 435px) {
+	.reviewBtn {
+		margin-bottom: 20px;
+	}
+}

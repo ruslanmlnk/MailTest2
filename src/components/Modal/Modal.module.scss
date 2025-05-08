@@ -1,0 +1,161 @@
+/* reset */
+
+.reviewBtn {
+	width: 310px;
+	height: 70px;
+	border-radius: 10px;
+	gap: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #f58d1d;
+	border: none;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.1;
+}
+
+.full {
+	width: 100%;
+}
+
+.disabled {
+	background: rgb(184, 183, 183);
+	opacity: 0.7;
+}
+
+.reviewBtn svg {
+	transition: all 300ms ease-out;
+}
+
+.reviewBtn:hover svg {
+	transform: translateX(5px);
+}
+
+.DialogOverlay {
+	position: fixed;
+	z-index: 11;
+	inset: 0;
+	animation: overlayShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+	padding: 0px 20px;
+	background: rgba(0, 0, 0, 0.4);
+}
+
+.DialogContent {
+	z-index: 11;
+	background: #fff;
+	border-radius: 25px;
+	font-family: TT Travels;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	// width: 90vw;
+	// max-width: 589px;
+	// max-width: 900px;
+	width: 100%;
+	max-width: var(--max-width);
+	// max-height: 85vh;
+	padding: 50px;
+	padding-top: 75px;
+	animation: contentShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.DialogContent:focus {
+	outline: none;
+}
+
+.IconButton {
+	border-radius: 100%;
+	border: none;
+	width: 24px;
+	height: 24px;
+	background: transparent;
+	position: absolute;
+	top: 35px;
+	right: 35px;
+}
+.IconButton:hover {
+	background-color: var(--violet-4);
+}
+.IconButton:focus {
+	box-shadow: 0 0 0 2px var(--violet-7);
+}
+
+@keyframes overlayShow {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes contentShow {
+	from {
+		opacity: 0;
+		transform: translate(-50%, -48%) scale(0.96);
+	}
+	to {
+		opacity: 1;
+		transform: translate(-50%, -50%) scale(1);
+	}
+}
+
+@keyframes contentShowMobile {
+	from {
+		opacity: 0;
+		transform: scale(0.96);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+@media (max-width: 768px) {
+	.DialogContent {
+		padding: 20px;
+		padding-top: 35px;
+		top: 20%;
+		left: 0%;
+		transform: translate(0%, 0%);
+		overflow-y: auto;
+		animation: contentShowMobile 150ms cubic-bezier(0.16, 1, 0.3, 1);
+	}
+
+	.IconButton {
+		width: 20px;
+		height: 20px;
+		& svg {
+			width: 20px;
+			height: 20px;
+		}
+		right: 20px;
+		// top: 40px;
+	}
+	.reviewBtn {
+		width: 100%;
+		height: 45px;
+		font-size: 14px;
+		gap: 6px;
+		& svg {
+			width: 12px;
+			height: 12px;
+		}
+	}
+}
+
+@media (max-width: 435px) {
+	.content {
+		max-height: 500px;
+		overflow-y: auto;
+	}
+	.DialogContent {
+		padding-bottom: 0px;
+		padding-top: 40px;
+	}
+	.IconButton {
+		top: 12px;
+	}
+}

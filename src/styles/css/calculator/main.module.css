@@ -1,0 +1,15 @@
+.main {
+	background: #436ae5;
+	width: 100dvw;
+	height: 100vh;
+	padding-top: 130px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+@media (max-width: 768px) {
+	.main {
+		height: unset;
+	}
+}

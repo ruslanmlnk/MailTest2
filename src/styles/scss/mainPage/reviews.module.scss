@@ -1,0 +1,538 @@
+.header {
+	.subTitle {
+		margin-top: 25px;
+
+		span {
+			position: relative;
+
+			&::before {
+				position: absolute;
+				top: -10px;
+				left: 0;
+				content: "";
+				background-image: url("../../../../public/images/mainPage/reviews/bg-image.svg");
+				width: 102%;
+				height: 100%;
+				background-repeat: no-repeat;
+				background-position: bottom;
+				background-size: contain;
+				z-index: -1;
+			}
+		}
+	}
+
+	> div {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 40px;
+
+		.stats {
+			display: flex;
+			gap: 50px;
+
+			div {
+				display: flex;
+				flex-direction: column;
+				gap: 5px;
+
+				h3 {
+					font-weight: 600;
+					font-size: 40px;
+				}
+
+				p {
+					font-weight: 500;
+					font-size: 22px;
+				}
+			}
+		}
+	}
+}
+
+$grid-areas: A, B, C, D, E, F, G;
+
+.reviews {
+	margin-top: 60px;
+	display: grid;
+	gap: 30px;
+
+	grid-template-areas:
+		"A B G G"
+		"C D G G"
+		"E F G G";
+
+	.review {
+		@for $i from 1 through 6 {
+			&:nth-child(#{$i}) {
+				grid-area: nth($grid-areas, $i);
+				width: 360px;
+				height: auto;
+				padding: 30px;
+				border: 1px solid #eaeeff;
+				border-radius: 25px;
+				cursor: pointer;
+
+				.topbar {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+
+					.user {
+						display: flex;
+						align-items: center;
+						gap: 20px;
+
+						> .avatar {
+							width: 45px;
+							height: 45px;
+							border-radius: 50vh;
+							display: flex;
+							justify-content: center;
+							align-items: center;
+							overflow: hidden;
+
+							> img {
+								width: auto;
+								height: 100%;
+							}
+						}
+
+						.name {
+							> p {
+								font-weight: 700;
+								font-size: 16px;
+							}
+
+							.stars {
+								display: flex;
+								margin-top: 3px;
+								gap: 6px;
+
+								img {
+									width: 11px;
+									height: 11px;
+								}
+							}
+						}
+					}
+				}
+
+				> p {
+					margin-top: 18px;
+					font-weight: 400;
+					font-size: 14px;
+					line-height: 165%;
+				}
+
+				> .bottom {
+					margin-top: 18px;
+					display: flex;
+					justify-content: space-between;
+
+					p {
+						font-weight: 400;
+						font-size: 14px;
+						line-height: 165%;
+					}
+
+					.openBlock {
+						display: flex;
+						gap: 20px;
+
+						> p {
+							color: #436ae5;
+						}
+					}
+				}
+			}
+		}
+
+		&:nth-child(7) {
+			grid-area: G;
+			width: 540px;
+			height: 100%;
+			padding: 30px;
+			background-color: #f1f4ff;
+			border-radius: 25px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+
+			> .bottom {
+				display: flex;
+				gap: 33px;
+			}
+
+			> div {
+				> .avatar {
+					border-radius: 25px;
+					overflow: hidden;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+
+					> img {
+						width: 50%;
+						height: 100%;
+						object-fit: cover;
+						// object-position: 0 0;
+						border-radius: 25px;
+					}
+					video {
+						border-radius: 25px;
+					}
+				}
+
+				> .stars {
+					display: flex;
+					gap: 10px;
+					margin-left: 3px;
+				}
+
+				> .header {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					margin-top: 35px;
+
+					> .name {
+						font-weight: 700;
+						font-size: 35px;
+						line-height: 165%;
+					}
+				}
+
+				> .text {
+					margin-top: 40px;
+					font-weight: 400;
+					font-size: 16px;
+					height: 180px;
+					line-height: 165%;
+					white-space: pre-wrap;
+					overflow-y: scroll;
+					padding-right: 50px;
+
+					&::-webkit-scrollbar {
+						width: 10px;
+					}
+
+					&::-webkit-scrollbar-track {
+						width: 6px;
+						background-color: #fff;
+						border-radius: 50vh;
+						border: #f1f4ff 2px solid;
+					}
+
+					&::-webkit-scrollbar-thumb {
+						width: 10px;
+						background-color: #436ae5;
+						border-radius: 50vh;
+					}
+				}
+
+				> .date,
+				> .route {
+					align-self: center;
+					font-weight: 400;
+					font-size: 16px;
+					line-height: 165%;
+					white-space: pre-line;
+
+					span {
+						font-weight: 600;
+						color: #616161;
+					}
+				}
+			}
+		}
+
+		&.opened {
+			background-color: #f1f4ff;
+		}
+	}
+}
+
+.reviewsMobile {
+	display: none;
+}
+.title {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 23.4px;
+	color: #f58d1d;
+	text-transform: uppercase;
+}
+
+.subTitle {
+	font-size: 54px;
+	font-weight: 700;
+	line-height: 67.5px;
+	text-align: left;
+}
+
+@media (max-width: 768px) {
+	.title {
+		font-size: 10px;
+		line-height: 12px;
+	}
+
+	.subTitle {
+		font-size: 28px !important;
+		margin-top: 0px !important;
+	}
+	.section {
+		margin-bottom: 50px;
+	}
+
+	.container {
+		margin-top: 70px;
+	}
+
+	.header {
+		.subTitle {
+			margin-top: 10px;
+
+			span {
+				&::before {
+					background-image: none;
+				}
+			}
+		}
+
+		> div {
+			margin-top: 25px;
+			flex-direction: column;
+			gap: 50px;
+
+			button {
+				display: none;
+			}
+
+			.stats {
+				gap: 20px;
+
+				div {
+					gap: 8px;
+
+					h3 {
+						font-size: 20px;
+					}
+
+					p {
+						font-size: 14px;
+						color: #616161;
+					}
+				}
+			}
+		}
+	}
+
+	.reviews {
+		display: none;
+	}
+
+	.reviewsMobile {
+		margin-top: 25px;
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+
+		.swiper {
+			display: flex;
+			width: 100%;
+			overflow: visible;
+
+			> div > div {
+				display: flex;
+				height: auto;
+			}
+
+			.paginationBullet {
+				transform: translateY(60px);
+			}
+		}
+
+		.review {
+			width: 100%;
+			height: 100%;
+			padding: 30px;
+			background-color: #fff;
+			border: 1px solid #eaeeff;
+			border-radius: 25px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+
+			> .bottom {
+				display: flex;
+				gap: 33px;
+			}
+
+			> div {
+				> .avatar {
+					border-radius: 25px;
+					overflow: hidden;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+
+					> img {
+						width: auto;
+						height: 100%;
+						border-radius: 25px;
+					}
+					video {
+						width: 100%;
+						height: auto;
+						border-radius: 35px;
+					}
+				}
+
+				> .stars {
+					display: flex;
+					gap: 10px;
+					margin-left: 3px;
+					margin-top: 10px;
+				}
+
+				> .header {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					margin-top: 20px;
+
+					> .name {
+						font-weight: 700;
+						font-size: 22px;
+						line-height: 165%;
+					}
+				}
+
+				> .text {
+					margin-top: 40px;
+					font-weight: 400;
+					font-size: 16px;
+					height: 180px;
+					line-height: 165%;
+					white-space: pre-wrap;
+					overflow-y: scroll;
+					padding-right: 50px;
+
+					&::-webkit-scrollbar {
+						width: 10px;
+					}
+
+					&::-webkit-scrollbar-track {
+						width: 6px;
+						background-color: #fff;
+						border-radius: 50vh;
+						border: #f1f4ff 2px solid;
+					}
+
+					&::-webkit-scrollbar-thumb {
+						width: 10px;
+						background-color: #436ae5;
+						border-radius: 50vh;
+					}
+				}
+
+				> .date,
+				> .route {
+					font-weight: 400;
+					font-size: 16px;
+					line-height: 165%;
+				}
+			}
+
+			@for $i from 1 through 6 {
+				&:nth-child(#{$i}) {
+					width: 100%;
+					height: auto;
+					padding: 30px 25px;
+					border: 1px solid #eaeeff;
+					border-radius: 25px;
+					cursor: pointer;
+
+					.topbar {
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+
+						.user {
+							display: flex;
+							align-items: center;
+							gap: 20px;
+
+							> .avatar {
+								width: 45px;
+								height: 45px;
+								border-radius: 50vh;
+								display: flex;
+								justify-content: center;
+								align-items: center;
+								overflow: hidden;
+
+								> img {
+									width: auto;
+									height: 100%;
+								}
+							}
+
+							.name {
+								> p {
+									font-weight: 700;
+									font-size: 16px;
+								}
+
+								.stars {
+									display: flex;
+									margin-top: 3px;
+									gap: 6px;
+
+									img {
+										width: 11px;
+										height: 11px;
+									}
+								}
+							}
+						}
+
+						> img {
+							display: none;
+						}
+					}
+
+					> p {
+						font-weight: 400;
+						font-size: 14px;
+						line-height: 165%;
+					}
+
+					> .bottom {
+						margin-top: 10px;
+						display: flex;
+						align-items: flex-end;
+						justify-content: space-between;
+
+						p {
+							font-weight: 400;
+							font-size: 14px;
+							line-height: 165%;
+						}
+
+						.openBlock {
+							display: flex;
+							gap: 20px;
+							margin-bottom: 1px;
+
+							> p {
+								display: none;
+								color: #436ae5;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

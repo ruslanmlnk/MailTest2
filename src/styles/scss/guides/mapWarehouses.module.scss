@@ -1,0 +1,197 @@
+.container {
+	margin-top: 140px;
+	.title {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		h2 {
+			margin-bottom: 20px;
+			white-space: pre-line;
+			text-align: center;
+		}
+	}
+
+	.mapContainer {
+		margin-top: 65px;
+		display: flex;
+	}
+
+	.callToAction {
+		margin-top: 50px;
+
+		h3 {
+			color: #fff;
+			margin-bottom: 15px;
+		}
+
+		p {
+			color: #fff;
+			margin-bottom: 40px;
+		}
+	}
+
+	.warehouseInformation {
+		background: var(--primary-color);
+		width: 100%;
+		max-width: 660px;
+
+		padding: 90px 90px 90px 110px;
+
+		> h3 {
+			color: #fff;
+		}
+	}
+
+	.warehouse {
+		margin-top: 30px;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		width: 100%;
+		padding: 27px 30px 27px 20px;
+		border: 1px solid #e6e6e6;
+		outline: 1px solid transparent;
+		transition: 0.3s;
+
+		background: #ffffff;
+		cursor: pointer;
+		border-radius: 25px;
+
+		&:hover {
+			border: 1px solid #436ae560;
+			transition: 0.3s;
+		}
+
+		.border {
+			margin-top: 30px;
+			border: 1px solid #e6e6e6;
+		}
+
+		.googleTransition {
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			gap: 40px;
+			padding: 0 10px;
+			margin-top: 20px;
+
+			a {
+				color: #436ae5;
+				font-size: 18px;
+				font-weight: 600;
+				line-height: 30px;
+				display: flex;
+				align-items: center;
+				gap: 40px;
+			}
+		}
+
+		> div {
+			display: flex;
+			justify-content: space-between;
+			gap: 20px;
+
+			.img {
+				height: 50px;
+				width: 50px;
+			}
+
+			.info {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				gap: 15px;
+
+				> h3 {
+					font-size: 20px;
+				}
+
+				> p {
+					line-height: 20px;
+					color: #616161;
+				}
+			}
+		}
+
+		> img {
+			height: 55px;
+			margin-left: 10px;
+		}
+	}
+
+	.map {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 1440px) {
+	.container {
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.container {
+		margin-top: 50px;
+
+		.title {
+			display: none;
+		}
+
+		.map {
+			display: none;
+		}
+
+		.warehouseInformation {
+			padding: 50px 20px 35px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			h3 {
+				font-size: 20px;
+			}
+		}
+
+		.warehouse {
+			.border {
+				margin-top: 15px;
+			}
+
+			> div {
+				.info {
+					gap: 0;
+
+					h3 {
+						font-size: 12px;
+						margin-bottom: 10px;
+					}
+
+					p {
+						font-size: 12px !important;
+
+						&:nth-child(1) {
+							margin-bottom: 10px;
+						}
+					}
+				}
+			}
+		}
+
+		.callToAction {
+			h3 {
+				font-size: 16px;
+				margin-bottom: 8px;
+			}
+
+			p {
+				font-size: 14px !important;
+				margin-bottom: 20px;
+			}
+
+			button {
+				font-size: 14px;
+				height: 45px;
+			}
+		}
+	}
+}

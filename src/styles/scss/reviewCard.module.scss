@@ -1,0 +1,278 @@
+.review {
+	width: 360px;
+	height: auto;
+	padding: 30px;
+	border: 1px solid #eaeeff;
+	border-radius: 25px;
+	cursor: pointer;
+
+	&.opened {
+		background-color: #f1f4ff;
+	}
+
+	> p {
+		margin-top: 18px;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 165%;
+	}
+
+	> .bottom {
+		margin-top: 18px;
+		display: flex;
+		justify-content: space-between;
+
+		p {
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 165%;
+		}
+
+		.openBlock {
+			display: flex;
+			gap: 20px;
+
+			> p {
+				color: #436ae5;
+			}
+		}
+	}
+
+	.topbar {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.user {
+			display: flex;
+			align-items: center;
+			gap: 20px;
+
+			> .avatar {
+				flex-shrink: 0;
+				width: 45px;
+				height: 45px;
+				border-radius: 50vh;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				overflow: hidden;
+
+				> img {
+					width: auto;
+					height: 100%;
+				}
+			}
+
+			.name {
+				> p {
+					font-weight: 700;
+					font-size: 16px;
+				}
+
+				.stars {
+					display: flex;
+					margin-top: 3px;
+					gap: 6px;
+
+					img {
+						width: 11px;
+						height: 11px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.review {
+		&:nth-child(1) {
+			width: 100%;
+			height: 100%;
+			padding: 30px;
+			background-color: #f1f4ff;
+			border-radius: 25px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+
+			> .bottom {
+				display: flex;
+				gap: 33px;
+			}
+
+			> div {
+				> .avatar {
+					border-radius: 25px;
+					overflow: hidden;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+
+					> img {
+						width: auto;
+						height: 100%;
+						border-radius: 25px;
+					}
+					video {
+						width: 100%;
+						height: auto;
+						border-radius: 35px;
+					}
+				}
+
+				> .stars {
+					display: flex;
+					gap: 10px;
+					margin-left: 3px;
+					margin-top: 10px;
+				}
+
+				> .header {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					margin-top: 20px;
+
+					> .name {
+						font-weight: 700;
+						font-size: 22px;
+						line-height: 165%;
+					}
+				}
+
+				> .text {
+					margin-top: 40px;
+					font-weight: 400;
+					font-size: 16px;
+					height: 180px;
+					line-height: 165%;
+					white-space: pre-wrap;
+					overflow-y: scroll;
+					padding-right: 50px;
+
+					&::-webkit-scrollbar {
+						width: 10px;
+					}
+
+					&::-webkit-scrollbar-track {
+						width: 6px;
+						background-color: #fff;
+						border-radius: 50vh;
+						border: #f1f4ff 2px solid;
+					}
+
+					&::-webkit-scrollbar-thumb {
+						width: 10px;
+						background-color: #436ae5;
+						border-radius: 50vh;
+					}
+				}
+
+				> .date,
+				> .route {
+					font-weight: 400;
+					font-size: 16px;
+					line-height: 165%;
+					margin-top: 20px;
+
+					span {
+						font-weight: 600;
+						color: #616161;
+					}
+				}
+			}
+		}
+
+		@for $i from 1 through 6 {
+			&:nth-child(#{$i}) {
+				width: 100%;
+				height: auto;
+				padding: 30px 25px;
+				border: 1px solid #eaeeff;
+				border-radius: 25px;
+				cursor: pointer;
+
+				.topbar {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+
+					.user {
+						display: flex;
+						align-items: center;
+						gap: 20px;
+
+						> .avatar {
+							width: 45px;
+							height: 45px;
+							border-radius: 50vh;
+							display: flex;
+							justify-content: center;
+							align-items: center;
+							overflow: hidden;
+
+							> img {
+								width: auto;
+								height: 100%;
+							}
+						}
+
+						.name {
+							> p {
+								font-weight: 700;
+								font-size: 16px;
+							}
+
+							.stars {
+								display: flex;
+								margin-top: 3px;
+								gap: 6px;
+
+								img {
+									width: 11px;
+									height: 11px;
+								}
+							}
+						}
+					}
+				}
+
+				> p {
+					margin-top: 18px;
+					font-weight: 400;
+					font-size: 14px;
+					line-height: 165%;
+				}
+
+				> .bottom {
+					margin-top: 10px;
+					display: flex;
+					align-items: flex-end;
+					justify-content: space-between;
+
+					p {
+						font-weight: 400;
+						font-size: 14px;
+						line-height: 165%;
+					}
+
+					.openBlock {
+						display: flex;
+						gap: 20px;
+						margin-bottom: 1px;
+
+						> p {
+							color: #436ae5;
+						}
+					}
+				}
+			}
+		}
+
+		&.opened {
+			background-color: #f1f4ff;
+		}
+	}
+}

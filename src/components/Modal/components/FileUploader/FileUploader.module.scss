@@ -1,0 +1,138 @@
+.fileInput {
+	display: none;
+}
+
+.fileInptWrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 70px;
+	border-radius: 10px;
+	background: #fff;
+	border: none;
+	color: #616161;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.5;
+
+	transition: background-image 300ms ease-out;
+	&:hover {
+		background-image: repeating-linear-gradient(
+				0deg,
+				#436ae5,
+				#436ae5 16px,
+				transparent 16px,
+				transparent 26px,
+				#436ae5 26px
+			),
+			repeating-linear-gradient(
+				90deg,
+				#436ae5,
+				#436ae5 16px,
+				transparent 16px,
+				transparent 26px,
+				#436ae5 26px
+			),
+			repeating-linear-gradient(
+				180deg,
+				#436ae5,
+				#436ae5 16px,
+				transparent 16px,
+				transparent 26px,
+				#436ae5 26px
+			),
+			repeating-linear-gradient(
+				270deg,
+				#436ae5,
+				#436ae5 16px,
+				transparent 16px,
+				transparent 26px,
+				#436ae5 26px
+			);
+	}
+	background-image: repeating-linear-gradient(
+			0deg,
+			#dedfe0,
+			#dedfe0 16px,
+			transparent 16px,
+			transparent 26px,
+			#dedfe0 26px
+		),
+		repeating-linear-gradient(
+			90deg,
+			#dedfe0,
+			#dedfe0 16px,
+			transparent 16px,
+			transparent 26px,
+			#dedfe0 26px
+		),
+		repeating-linear-gradient(
+			180deg,
+			#dedfe0,
+			#dedfe0 16px,
+			transparent 16px,
+			transparent 26px,
+			#dedfe0 26px
+		),
+		repeating-linear-gradient(
+			270deg,
+			#dedfe0,
+			#dedfe0 16px,
+			transparent 16px,
+			transparent 26px,
+			#dedfe0 26px
+		);
+	background-size:
+		3px 100%,
+		100% 3px,
+		3px 100%,
+		100% 3px;
+	background-position:
+		0 0,
+		0 0,
+		100% 0,
+		0 100%;
+	background-repeat: no-repeat;
+}
+
+.placeholder {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.uploaded {
+	background-image: repeating-linear-gradient(
+			0deg,
+			#436ae5,
+			#436ae5 16px,
+			transparent 16px,
+			transparent 26px,
+			#436ae5 26px
+		),
+		repeating-linear-gradient(
+			90deg,
+			#436ae5,
+			#436ae5 16px,
+			transparent 16px,
+			transparent 26px,
+			#436ae5 26px
+		),
+		repeating-linear-gradient(
+			180deg,
+			#436ae5,
+			#436ae5 16px,
+			transparent 16px,
+			transparent 26px,
+			#436ae5 26px
+		),
+		repeating-linear-gradient(
+			270deg,
+			#436ae5,
+			#436ae5 16px,
+			transparent 16px,
+			transparent 26px,
+			#436ae5 26px
+		);
+}

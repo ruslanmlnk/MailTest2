@@ -1,0 +1,126 @@
+.container {
+	padding: 0px;
+	// margin-top: 240px;
+
+	.title {
+		color: #f58d1d !important;
+		text-transform: uppercase !important;
+		margin-top: 0px !important;
+		font-weight: 700;
+		text-transform: uppercase;
+		font-size: 18px;
+		margin-top: 20px;
+	}
+}
+.defaultMargin {
+	margin-top: 15rem !important;
+}
+
+.itemTitle {
+	font-size: 1.75rem;
+	font-weight: 700;
+}
+.container > h4 {
+	margin-bottom: 20px;
+}
+.container > h2 {
+	max-width: 640px;
+}
+.container .mobileGrid {
+	display: none;
+}
+.container .mobileGrid .buttons {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0px;
+}
+.container .mobileGrid .buttons div:last-child img {
+	transform: rotate(180deg);
+}
+.container .grid {
+	margin-top: 60px;
+	gap: 38px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.container .grid .card {
+	background: #f1f4ff;
+	padding: 50px 45px;
+	border-radius: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+.container .grid .card > img {
+	margin-bottom: 34px;
+	width: auto;
+	height: 70px;
+}
+.container .grid .card h3 {
+	/* margin-bottom: 20px; */
+	margin-top: 0px !important;
+	text-align: center;
+}
+.container .grid .card p {
+	text-align: center;
+	margin-bottom: 34px !important;
+}
+
+@media only screen and (max-width: 768px) {
+	.itemTitle {
+		margin-bottom: 0.5rem;
+		font-size: 1rem;
+	}
+	.defaultMargin {
+		margin-top: 15rem !important;
+	}
+	.container {
+		margin-top: 520px !important;
+		padding: 0px 20px;
+	}
+
+	.service {
+		margin-top: 70px !important;
+	}
+	.container h4 {
+		margin-bottom: 10px;
+	}
+	.container.packaging {
+		margin-top: 240px;
+	}
+	.container .grid {
+		display: none;
+	}
+	.container .mobileGrid {
+		display: block;
+		margin-top: 25px;
+	}
+	.container .mobileGrid .swiper {
+		overflow: visible;
+	}
+	.container .mobileGrid .swiper .slide {
+		height: auto;
+	}
+	.container .mobileGrid .card {
+		height: 100%;
+		background: #f1f4ff;
+		padding: 20px 30px 20px 20px;
+		border-radius: 25px;
+		display: flex;
+		gap: 15px;
+		justify-content: flex-start;
+	}
+	.container .mobileGrid .card > img {
+		margin-bottom: 25px;
+		width: auto;
+		height: 50px;
+	}
+	.container .mobileGrid .card h3 {
+		margin-bottom: 8px;
+		font-size: 16px;
+	}
+	.container .mobileGrid .card p {
+		font-size: 14px !important;
+	}
+}

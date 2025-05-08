@@ -1,0 +1,18 @@
+.map {
+	border-radius: 25px;
+	overflow: hidden;
+	border: none;
+	height: 600px;
+}
+
+@media (max-width: 768px) {
+	.map {
+		border-radius: 30px;
+	}
+}
+
+@media (max-width: 435px) {
+	.map {
+		height: 200px;
+	}
+}

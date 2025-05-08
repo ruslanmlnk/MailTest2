@@ -1,0 +1,34 @@
+.secondSection {
+	margin-top: 140px;
+	text-align: center;
+	h2 {
+		margin-bottom: 40px;
+		white-space: pre-line;
+	}
+	margin-bottom: 65px;
+	@media (max-width: 768px) {
+		p {
+			font-size: 14px !important;
+			line-height: 1.5 !important;
+		}
+		h2 {
+			white-space: unset;
+			margin-bottom: 12px;
+		}
+		margin-top: 70px;
+		margin-bottom: 0px;
+	}
+}
+.preTitle {
+	margin-bottom: 34px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #f58d1d;
+	text-transform: uppercase;
+	display: block;
+	@media only screen and (max-width: 768px) {
+		margin-bottom: 8px;
+		font-size: 10px;
+		line-height: 12px;
+	}
+}

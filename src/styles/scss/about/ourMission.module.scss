@@ -1,0 +1,178 @@
+.section {
+	background: #436ae5;
+	z-index: -2;
+
+	.container {
+		display: flex;
+		align-items: center;
+		padding: 140px 24px;
+		gap: 80px;
+
+		> div {
+			width: 100%;
+
+			&:nth-child(2) {
+				max-width: 570px;
+			}
+		}
+
+		.cards {
+			display: flex;
+			gap: 30px;
+
+			> div {
+				display: flex;
+				flex-direction: column;
+				gap: 30px;
+				width: 100%;
+
+				&:nth-child(2) {
+					margin-top: 100px;
+				}
+
+				> div {
+					padding: 80px 10px;
+					background: #fff;
+					border-radius: 25px;
+
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+
+					h3 {
+						color: #f58d1d;
+						font-size: 72px;
+
+						span,
+						b {
+							color: #272727;
+						}
+
+						b {
+							margin-left: 5px;
+						}
+					}
+
+					p {
+						font-size: 22px;
+						font-weight: 500;
+					}
+				}
+			}
+		}
+		.title {
+			h2,
+			p {
+				color: #fff;
+				margin-top: 25px;
+				z-index: 2;
+
+				span {
+					position: relative;
+					z-index: 1;
+
+					&::before {
+						position: absolute;
+						content: '';
+						top: 0;
+						left: 0;
+						width: 110%;
+						height: 95%;
+						background-image: url('../../../../public/images/about/mission-bg.svg');
+						background-repeat: no-repeat;
+						background-position: bottom;
+						z-index: -1;
+					}
+				}
+			}
+
+			.buttons {
+				margin-top: 40px;
+				display: flex;
+				gap: 30px;
+			}
+		}
+	}
+}
+.preTitle {
+	font-size: calc(18px / 0.9);
+	line-height: calc(23.4px / 0.9);
+	font-weight: 700;
+	color: #f58d1d;
+	text-transform: uppercase;
+    display: block;
+}
+@media only screen and (max-width: 1440px) {
+	.preTitle {
+		font-size: calc(18px / 0.8);
+		line-height: calc(23.4px / 0.8);
+	}
+}
+@media only screen and (max-width: 768px) {
+    .preTitle {
+        font-size: 10px;
+        line-height: 12px;
+    }
+	.section {
+		.container {
+			padding: 80px 20px;
+
+			flex-direction: column-reverse;
+			gap: 50px;
+
+			> div {
+				&:nth-child(2) {
+					max-width: 100%;
+				}
+			}
+
+			.title {
+				h2 {
+					margin-top: 10px;
+					br {
+						display: none;
+					}
+
+					span {
+						&::before {
+							display: none;
+						}
+					}
+				}
+
+				.buttons {
+					flex-direction: column;
+					gap: 20px;
+				}
+			}
+
+			.cards {
+				flex-direction: column;
+
+				> div {
+					> div {
+						padding: 40px 0;
+						h3 {
+							font-size: 35px;
+							font-weight: 600;
+
+							b {
+								margin-left: 0;
+								font-weight: 600;
+							}
+						}
+
+						p {
+							font-size: 16px;
+						}
+					}
+
+					&:nth-child(2) {
+						margin-top: 0;
+					}
+				}
+			}
+		}
+	}
+}

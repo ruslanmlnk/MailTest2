@@ -1,0 +1,143 @@
+.section {
+	// background: white;
+	// margin-bottom: -100px;
+    max-width: 1380px;
+    margin: 0 auto;
+}
+.container {
+	// margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	h2 {
+		margin-top: 20px;
+		font-size: 54px;
+		text-align: center;
+	}
+}
+.preTitle {
+	font-size: 18px;
+	font-weight: 700;
+	color: #f58d1d;
+	text-transform: uppercase;
+	display: block;
+	@media only screen and (max-width: 768px) {
+		font-size: 10px;
+		line-height: 12px;
+	}
+}
+.firstLine {
+	margin-left: -8px;
+	position: relative;
+	z-index: 1;
+	&::after {
+		overflow: visible;
+		position: absolute;
+		content: "";
+		background: url("../../../public/images/clientTestimonials/underline.svg");
+		width: 102%;
+		height: 100%;
+		background-repeat: no-repeat;
+		background-position: bottom;
+		background-size: contain;
+		left: 0;
+		bottom: 0;
+		transform: rotate(-1deg);
+		z-index: -1;
+	}
+}
+.cards {
+	// margin-top: 66px;
+	width: 100%;
+	display: grid;
+	gap: 10px;
+	grid-auto-flow: column;
+}
+.card {
+	width: 100%;
+	max-width: 330px;
+	display: grid;
+	align-items: center;
+	a {
+		display: block;
+	}
+	a img {
+		width: 100%;
+		height: auto;
+	}
+}
+.mobile {
+	display: none;
+}
+@media screen and (max-width: 768px) {
+	.desktop {
+		display: none;
+	}
+	.mobile {
+		display: block;
+	}
+	.section {
+		// padding: 30px 0;
+		margin-bottom: unset;
+	}
+	.firstLine {
+		margin-left: 0;
+		&::after {
+			background: none;
+		}
+	}
+	.cards {
+		// margin-top: 20px;
+		gap: 0;
+		grid-auto-flow: unset;
+		place-items: start;
+		grid-template-columns: 1fr 1fr;
+		gap: 10px;
+	}
+	.card {
+		// max-width: unset;
+		display: grid;
+		// align-items: start;
+		margin: 0;
+		* {
+			// margin: 0 !important;
+			// width: 100%;
+		}
+		// .trustpilot-widget{
+		//     height: 100%;
+		// }
+		> div > iframe {
+			// margin: 0;
+			max-height: 135px;
+			width: 100%;
+			display: grid;
+			place-items: center;
+			height: fit-content !important;
+			html,
+			body {
+				height: 100% !important;
+			}
+		}
+	}
+	.container {
+		align-items: flex-start;
+		h2 {
+			line-height: 120%;
+			margin-top: 10px;
+			font-size: 25px;
+			text-align: left;
+		}
+	}
+}
+@media screen and (max-width: 480px) {
+	.card > div > iframe {
+		// margin: 0;
+		max-height: 100px;
+	}
+}
+@media screen and (max-width: 370px) {
+	.card > div > iframe {
+		// margin: 0;
+		max-height: 80px;
+	}
+}

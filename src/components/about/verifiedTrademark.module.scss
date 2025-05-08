@@ -1,0 +1,72 @@
+.ct {
+	background: #f1f4ff;
+	padding: 8.75rem 0px;
+	@media (max-width: 768px) {
+		padding: 5rem 0px;
+	}
+}
+
+.employee {
+	display: grid;
+	gap: 60px;
+	grid-template-columns: 1fr 1fr;
+	max-width: var(--max-width);
+	margin: 0px auto;
+	padding: 0px 1.5rem;
+
+	.information {
+		h2 {
+			margin-bottom: 30px;
+			font-size: 40px;
+
+			background-image: url("../../../public/images/about/teamMembers/title-decoration.svg");
+			background-repeat: no-repeat;
+			background-position: bottom left;
+			@media (max-width: 768px) {
+				font-size: 1.75rem;
+			}
+		}
+
+		.socials {
+			display: flex;
+			gap: 12px;
+			margin-top: 30px;
+
+			img {
+				height: 38px;
+				width: 38px;
+				cursor: pointer;
+			}
+		}
+		@media (max-width: 768px) {
+			background: #fff;
+			border-radius: 30px;
+			padding: 1.5rem;
+			padding-bottom: 150px;
+		}
+	}
+	@media (max-width: 768px) {
+		display: flex;
+		flex-direction: column;
+		gap: 0px;
+		flex-flow: column-reverse;
+	}
+}
+
+.imgMob {
+	display: block;
+	width: 100%;
+	height: auto;
+	border-radius: 1.5625rem;
+	margin: 0px auto;
+	border: 1px solid #f1f4ff;
+	@media (max-width: 768px) {
+		max-width: 85%;
+		margin-top: -140px;
+	}
+}
+
+.subText {
+	margin-top: 20px;
+	white-space: pre-line;
+}

@@ -1,0 +1,306 @@
+.section {
+	background-color: #eaeeff;
+	padding: 120px 0;
+	margin-top: 140px;
+
+	.container {
+		margin-top: 0;
+
+		.header {
+			display: flex;
+			justify-content: space-between;
+
+			.title {
+				h2 {
+					margin-top: 30px;
+				}
+			}
+
+			> button {
+				display: none;
+			}
+
+			.buttons {
+				align-self: flex-end;
+				margin-bottom: 5px;
+				display: flex;
+				gap: 25px;
+
+				> div {
+					cursor: pointer;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 70px;
+					height: 70px;
+					background-color: #f1f4ff;
+					border-radius: 10px;
+					transition: 0.3s;
+
+					> img {
+						position: absolute;
+						width: 15px;
+					}
+
+					&:nth-child(1) {
+						&:hover {
+							background-color: #436ae5;
+							transform: translateY(-2px);
+
+							> img {
+								filter: brightness(100);
+							}
+						}
+					}
+
+					&:nth-child(2) {
+						background-color: #436ae5;
+
+						> img {
+							filter: brightness(100);
+							transform: rotate(180deg);
+						}
+
+						&:hover {
+							background-color: #f1f4ff;
+							transform: translateY(-2px);
+
+							> img {
+								filter: brightness(0);
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.content {
+			margin-top: 60px;
+
+			.relatedMobile {
+				display: none;
+			}
+
+			.swiper {
+				overflow: visible;
+				display: flex;
+
+				&-wrapper {
+					overflow: visible;
+				}
+
+				.slide {
+					width: 420px;
+					height: auto;
+					border-radius: 25px;
+					cursor: pointer;
+
+					.image {
+						position: relative;
+						overflow: hidden;
+						width: 420px;
+						height: 300px;
+						border-radius: 25px;
+
+						img {
+							object-fit: cover;
+							width: 100%;
+							height: 100%;
+						}
+					}
+
+					.title {
+						font-weight: 700;
+						font-size: 28px;
+						margin-top: 30px;
+					}
+
+					.topBar {
+						display: flex;
+						align-items: center;
+						margin-top: 25px;
+						gap: 20px;
+
+						.tag {
+							padding: 10px 23px;
+							background-color: #436ae5;
+							border-radius: 10px;
+							width: max-content;
+
+							> p {
+								color: #fff;
+							}
+						}
+
+						.date {
+							font-weight: 400;
+							font-size: 20px;
+						}
+					}
+
+					h3 {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+}
+.nextSwiper {
+	display: flex;
+	justify-content: center;
+	margin-top: 24px;
+
+	.buttons {
+		align-self: flex-end;
+		display: flex;
+		gap: 10px;
+
+		.prev,
+		.next {
+			user-select: none;
+			scale: 0.5;
+		}
+
+		> div {
+			cursor: pointer;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 49px;
+			height: 45px;
+			background-color: #f1f4ff;
+			border-radius: 10px;
+			transition: 0.3s;
+
+			&:nth-child(1) {
+				&:hover {
+					background-color: #436ae5;
+					transform: translateY(-2px);
+
+					> img {
+						filter: brightness(100);
+					}
+				}
+			}
+
+			&:nth-child(2) {
+				background-color: #436ae5;
+
+				> img {
+					filter: brightness(100);
+					transform: rotate(180deg);
+				}
+
+				&:hover {
+					background-color: #f1f4ff;
+					transform: translateY(-2px);
+
+					> img {
+						filter: brightness(0);
+					}
+				}
+			}
+		}
+	}
+}
+.mobile {
+	display: none;
+}
+@media only screen and (max-width: 768px) {
+	.mobile {
+		display: block;
+	}
+	.section {
+		background: 0;
+
+		padding: 0;
+		margin-top: 80px;
+
+		.container {
+			.header {
+				flex-direction: column;
+				.title {
+					width: 100%;
+					h2 {
+						margin-top: 0;
+						margin-bottom: 0;
+						text-align: center;
+					}
+				}
+
+				> button {
+					display: unset;
+				}
+
+				.buttons {
+					display: none;
+				}
+			}
+
+			.content {
+				.swiper_wrapper {
+					display: none;
+				}
+				.relatedMobile {
+					display: flex;
+					// flex-direction: column;
+					// gap: 20px;
+
+					.slide {
+						width: 100%;
+						height: auto;
+						border-radius: 25px;
+						cursor: pointer;
+						margin-bottom: 20px;
+
+						.image {
+							position: relative;
+							overflow: hidden;
+							width: 100%;
+							height: 230px;
+							object-fit: cover;
+							border-radius: 25px;
+
+							img {
+								width: 100%;
+								height: auto;
+								object-fit: cover;
+							}
+						}
+
+						h3 {
+							width: 100%;
+							margin-top: 15px;
+							font-size: 16px;
+						}
+
+						.topBar {
+							display: flex;
+							align-items: center;
+							margin-top: 20px;
+							gap: 20px;
+
+							p {
+								font-size: 12px;
+							}
+
+							.tag {
+								padding: 5px 13px;
+								background-color: #436ae5;
+								border-radius: 4px;
+								width: max-content;
+
+								p {
+									font-size: 12px;
+									color: #fff;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		padding-bottom: 40px;
+	}
+}

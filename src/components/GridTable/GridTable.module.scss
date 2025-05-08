@@ -1,0 +1,146 @@
+.smallTitle {
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 1.65;
+	text-align: left;
+	margin-bottom: 30px !important;
+}
+
+.sectionSmall {
+	margin-top: 100px !important;
+	margin-bottom: 100px !important;
+	padding: 0px !important;
+
+	& .ceil {
+		height: 70px !important;
+		padding: 0px 15px;
+	}
+}
+
+.tableSection {
+	width: 100%;
+	max-width: var(--max-width);
+	margin: 200px auto 245px auto;
+	margin-bottom: 0px;
+	padding: 0px 20px;
+	text-align: center;
+	& span {
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 1.3;
+		color: #f58d1d;
+	}
+	& h2 {
+		margin-bottom: 65px;
+		margin-top: 15px !important;
+	}
+}
+
+.sectionAlt {
+	margin-top: 150px;
+}
+
+.tableWrapper {
+	display: flex;
+	width: 100%;
+
+	background: #f1f4ff;
+	border-radius: 25px;
+	padding: 5px;
+	gap: 5px;
+}
+
+.col,
+.colAlt {
+	flex-basis: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	&:first-child {
+		& .ceil {
+			font-weight: 700;
+		}
+	}
+}
+
+.ceil {
+	height: 100px;
+	width: auto;
+	border-radius: 20px;
+	padding: 0px 25px;
+	background: #fff;
+	font-size: 18px;
+	line-height: 1.65;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	text-align: left;
+	color: #616161;
+
+	&:first-child {
+		background: #436ae5;
+		color: #fff;
+		font-weight: 700;
+	}
+}
+
+.altCeil {
+	&:first-child {
+		background: #fff;
+		color: #f58d1d;
+	}
+}
+
+.mobile {
+	display: none;
+	color: #616161;
+}
+
+@media (max-width: 768px) {
+	.tableSection,
+	.sectionSmall {
+		margin: 70px auto;
+		& span {
+			font-size: 10px;
+		}
+		& h2 {
+			margin-bottom: 25px;
+		}
+	}
+	.tableWrapper {
+		flex-direction: column;
+	}
+	.col {
+		&:first-child {
+			display: none;
+		}
+	}
+	.ceil {
+		justify-content: space-between;
+		align-items: center;
+		font-size: 14px;
+		font-weight: 500;
+		padding: 25px;
+		height: unset;
+		&:first-child {
+			.mobile {
+				display: none;
+			}
+		}
+		.mobile {
+			display: block;
+			font-size: 14px !important;
+			font-weight: 700 !important;
+			max-width: 55%;
+		}
+	}
+	.altCeil {
+		&:first-child {
+			.mobile {
+				display: block;
+				color: #f58d1d;
+				font-weight: 700;
+			}
+		}
+	}
+}

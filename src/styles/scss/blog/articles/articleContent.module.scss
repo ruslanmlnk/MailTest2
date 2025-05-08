@@ -1,0 +1,208 @@
+.wrapWrap {
+	margin-top: 60px;
+}
+.wrapWrap p {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: center;
+	color: #616161;
+}
+.imageWrap {
+	position: relative;
+	max-width: 100%;
+	width: 100%;
+	height: 475px;
+	border-radius: 25px;
+	overflow: hidden;
+}
+@media (max-width: 768px) {
+	.imageWrap {
+		height: 235px;
+	}
+}
+.imageWrap img {
+	object-fit: cover;
+	object-position: 50% 50%;
+}
+.section {
+	margin-top: 0;
+}
+.container {
+	display: flex;
+	justify-content: space-between;
+	gap: 100px;
+	margin-top: 250px;
+}
+@media (max-width: 768px) {
+	.container {
+		margin-top: 320px;
+	}
+}
+.container .share {
+	margin-top: 40px;
+}
+.container .share .shareButtons {
+	margin-top: 10px;
+	display: flex;
+	gap: 10px;
+}
+.container .contentHolder {
+	width: 880px;
+	overflow: hidden;
+}
+.container .content h2,
+.container .content h3 {
+	margin-top: 50px !important;
+}
+.container .content h2:first-child,
+.container .content h3:first-child {
+	margin-top: 0 !important;
+}
+.container .content h4 {
+	margin-top: 40px;
+	color: #272727;
+	text-transform: capitalize;
+}
+.container .content p {
+	margin-top: 25px;
+}
+.container .content p:first-child {
+	margin-top: 0 !important;
+}
+.container .content p,
+.container .content li {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 165%;
+}
+.container .content ul {
+	margin-top: 10px;
+}
+.container .content li {
+	margin-left: 30px;
+}
+.container .content a {
+	text-decoration: underline;
+}
+.container .content .image {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 100%;
+	height: 470px;
+	overflow: hidden;
+	border-radius: 25px;
+}
+.container .content .image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.container .content .image > .imageAnnotation {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 165%;
+	color: #616161;
+	margin-top: 15px;
+}
+.container .aside_content {
+	grid-area: aside;
+	width: 340px;
+}
+.container .aside_content > div {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	position: sticky;
+	top: 120px;
+}
+.container .aside_content > div .subscribe {
+	background: #436ae5;
+	border-radius: 25px;
+	padding: 50px 30px;
+}
+.container .aside_content > div .subscribe img {
+	margin-bottom: 30px;
+	width: 80px;
+	height: 80px;
+}
+.container .aside_content > div .subscribe h4 {
+	margin-bottom: 10px;
+	color: #fff;
+}
+.container .aside_content > div .subscribe p {
+	color: #fff;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+.container .aside_content > div .subscribe button {
+	width: 100%;
+}
+@media only screen and (max-width: 768px) {
+	.noMT {
+		margin-top: 0px !important;
+	}
+	.section {
+		margin-top: 50px;
+	}
+	.section .container .content {
+		padding: 0px 20px;
+	}
+	.share {
+		padding: 0px 20px;
+	}
+	.section .container .contentHolder {
+		width: 100%;
+	}
+	.container {
+		padding: 0px;
+	}
+	.moreContent > section {
+		padding: 0px 20px !important;
+	}
+	.section .container .content > h2,
+	.section .container .content > h3 {
+		margin-top: 60px !important;
+	}
+	.section .container .content h2 {
+		font-size: 28px;
+	}
+	.section .container .content h3 {
+		font-size: 22px;
+	}
+	.section .container .content > ul,
+	.section .container .content > ol {
+		margin-left: 0;
+		list-style-position: inside;
+	}
+	.section .container .content p {
+		margin-top: 25px;
+	}
+	.section .container .content .block {
+		margin-top: 25px;
+	}
+	.section .container .content .block.quote {
+		padding: 50px 25px;
+		margin-top: 60px;
+		margin-bottom: 75px;
+		border-radius: 25px;
+	}
+	.section .container .content .block.quote p {
+		font-size: 20px;
+		text-align: center;
+	}
+	.section .container .content .image img {
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+	}
+	.section .container .content .image > .imageAnnotation {
+		font-size: 16px;
+		text-align: center;
+	}
+	.section .container .aside_content {
+		display: none;
+	}
+}

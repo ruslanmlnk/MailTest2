@@ -1,0 +1,89 @@
+.breadcrumbs {
+	margin-bottom: 100px;
+	margin-top: 121px;
+	@media (max-width: 768px) {
+		margin-bottom: 56px;
+		margin-top: 102px;
+		margin-left: 20px;
+	}
+}
+.heroSection {
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: max-content;
+
+	img {
+		z-index: -1;
+		object-fit: cover;
+	}
+	h1 {
+		color: #fff;
+		white-space: pre-line;
+	}
+	p {
+		color: #fff;
+		max-width: 800px;
+	}
+	.info {
+		margin-top: 0px;
+	}
+	@media (max-width: 768px) {
+		text-align: center;
+		h1 {
+			white-space: unset;
+		}
+		p {
+			font-size: 14px;
+			line-height: 1.5;
+		}
+	}
+}
+
+.text {
+	position: relative;
+	&::before {
+		position: absolute;
+		content: "";
+		width: 100px;
+		height: 80px;
+		bottom: -110px;
+		right: 45%;
+		transform: translateX(-50%);
+
+		background-image: url("../../../../public/images/calc-hero-arrow.svg");
+		background-repeat: no-repeat;
+		z-index: 10;
+		@media (max-width: 768px) {
+			display: none;
+		}
+	}
+	@media (max-width: 768px) {
+		margin-bottom: 40px;
+	}
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	margin-bottom: 90px;
+	width: 100%;
+	@media (max-width: 768px) {
+		gap: 10px;
+		align-items: center;
+	}
+}
+.preTitle {
+	font-size: 18px;
+	font-weight: 700;
+	color: #f58d1d;
+	text-transform: uppercase;
+	display: block;
+	@media only screen and (max-width: 768px) {
+		font-size: 10px;
+		line-height: 12px;
+	}
+}

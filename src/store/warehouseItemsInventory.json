@@ -1,0 +1,4084 @@
+[
+	{
+		"id": 1,
+		"category": "Appliances",
+		"items": [
+			{
+				"id": 1,
+				"itemName": "Dishwasher",
+				"cubicFeet": 20
+			},
+			{
+				"id": 2,
+				"itemName": "Dryer",
+				"cubicFeet": 25
+			},
+			{
+				"id": 3,
+				"itemName": "Fan, Floor",
+				"cubicFeet": 5
+			},
+			{
+				"id": 4,
+				"itemName": "Washer/dryer- Stackable",
+				"cubicFeet": 50
+			}
+		]
+	},
+	{
+		"id": 2,
+		"category": "Bedroom",
+		"items": [
+			{
+				"id": 1,
+				"itemName": "Adjustable Bed Frame",
+				"cubicFeet": 14
+			},
+			{
+				"id": 2,
+				"itemName": "Armoire, Large",
+				"cubicFeet": 40
+			},
+			{
+				"id": 3,
+				"itemName": "Armoire, Regular",
+				"cubicFeet": 30
+			},
+			{
+				"id": 4,
+				"itemName": "Armoire, Small",
+				"cubicFeet": 20
+			},
+			{
+				"id": 5,
+				"itemName": "Bed - Box Spring",
+				"cubicFeet": 15
+			},
+			{
+				"id": 6,
+				"itemName": "Bed Canopy",
+				"cubicFeet": 13
+			},
+			{
+				"id": 7,
+				"itemName": "Bed Meta: Folding Frame",
+				"cubicFeet": 5
+			},
+			{
+				"id": 8,
+				"itemName": "Bed Metal Folding Frame",
+				"cubicFeet": 5
+			},
+			{
+				"id": 9,
+				"itemName": "Bed Metal Frame",
+				"cubicFeet": 10
+			},
+			{
+				"id": 10,
+				"itemName": "Bed Rails (set)",
+				"cubicFeet": 5
+			},
+			{
+				"id": 11,
+				"itemName": "Bed, Bridge Headboard",
+				"cubicFeet": 30
+			},
+			{
+				"id": 12,
+				"itemName": "Bed, Bunk (mattress)",
+				"cubicFeet": 60
+			},
+			{
+				"id": 13,
+				"itemName": "Bed, Bunk, Set Of 2",
+				"cubicFeet": 70
+			},
+			{
+				"id": 14,
+				"itemName": "Bed, Cali King (mattress, Box, Frame, Head/foot",
+				"cubicFeet": 85
+			},
+			{
+				"id": 15,
+				"itemName": "Bed, Captain (mattress, Box, Frame, Head/foot",
+				"cubicFeet": 45
+			},
+			{
+				"id": 16,
+				"itemName": "Bed, Day (matt., Box, Frame, Head, Foot)",
+				"cubicFeet": 35
+			},
+			{
+				"id": 17,
+				"itemName": "Bed, Double",
+				"cubicFeet": 60
+			},
+			{
+				"id": 18,
+				"itemName": "Bed, Double (mattress, Box, Frame, Head/foot)",
+				"cubicFeet": 45
+			},
+			{
+				"id": 19,
+				"itemName": "Bed, Footboard",
+				"cubicFeet": 10
+			},
+			{
+				"id": 20,
+				"itemName": "Bed, Full (mattress, Box, Frame, Head/foot)",
+				"cubicFeet": 45
+			},
+			{
+				"id": 21,
+				"itemName": "Bed, Headboard",
+				"cubicFeet": 8
+			},
+			{
+				"id": 22,
+				"itemName": "Bed, King (mattress, Box, Frame, Head/foot)",
+				"cubicFeet": 75
+			},
+			{
+				"id": 23,
+				"itemName": "Bed, King/queen",
+				"cubicFeet": 70
+			},
+			{
+				"id": 24,
+				"itemName": "Bed, Large Headboard",
+				"cubicFeet": 20
+			},
+			{
+				"id": 25,
+				"itemName": "Bed, Platform Frame",
+				"cubicFeet": 20
+			},
+			{
+				"id": 26,
+				"itemName": "Bed, Post",
+				"cubicFeet": 5
+			},
+			{
+				"id": 27,
+				"itemName": "Bed, Queen (mattress, Box, Frame, Head/foot)",
+				"cubicFeet": 65
+			},
+			{
+				"id": 28,
+				"itemName": "Bed, Rollaway",
+				"cubicFeet": 20
+			},
+			{
+				"id": 29,
+				"itemName": "Bed, Single",
+				"cubicFeet": 40
+			},
+			{
+				"id": 30,
+				"itemName": "Bed, Single (mattress, Box, Frame, Head/foot)",
+				"cubicFeet": 35
+			},
+			{
+				"id": 31,
+				"itemName": "Bed, Trundle",
+				"cubicFeet": 20
+			},
+			{
+				"id": 32,
+				"itemName": "Bed, Twin (mattress, Box, Frame, Head/foot)",
+				"cubicFeet": 35
+			},
+			{
+				"id": 33,
+				"itemName": "Bed, Water Q/k",
+				"cubicFeet": 60
+			},
+			{
+				"id": 34,
+				"itemName": "Bed, Waterbed Base",
+				"cubicFeet": 10
+			},
+			{
+				"id": 35,
+				"itemName": "Bombay Chest",
+				"cubicFeet": 20
+			},
+			{
+				"id": 36,
+				"itemName": "Bookshelves",
+				"cubicFeet": 5
+			},
+			{
+				"id": 37,
+				"itemName": "Bureau, Dresser,",
+				"cubicFeet": 25
+			},
+			{
+				"id": 38,
+				"itemName": "Cabinet, Medium",
+				"cubicFeet": 13
+			},
+			{
+				"id": 39,
+				"itemName": "Cabinet, Small",
+				"cubicFeet": 7
+			},
+			{
+				"id": 40,
+				"itemName": "Cedar Chest",
+				"cubicFeet": 15
+			},
+			{
+				"id": 41,
+				"itemName": "Chair, Boudoir",
+				"cubicFeet": 10
+			},
+			{
+				"id": 42,
+				"itemName": "Changing Table",
+				"cubicFeet": 10
+			},
+			{
+				"id": 43,
+				"itemName": "Chest Of Drawers",
+				"cubicFeet": 20
+			},
+			{
+				"id": 44,
+				"itemName": "Chest, Cedar",
+				"cubicFeet": 10
+			},
+			{
+				"id": 45,
+				"itemName": "Chest, Medium",
+				"cubicFeet": 15
+			},
+			{
+				"id": 46,
+				"itemName": "Chest, Small",
+				"cubicFeet": 8
+			},
+			{
+				"id": 47,
+				"itemName": "Child, Chairs",
+				"cubicFeet": 3
+			},
+			{
+				"id": 48,
+				"itemName": "Child, Table",
+				"cubicFeet": 5
+			},
+			{
+				"id": 49,
+				"itemName": "Child, Toy",
+				"cubicFeet": 3
+			},
+			{
+				"id": 50,
+				"itemName": "Coat Rack",
+				"cubicFeet": 5
+			},
+			{
+				"id": 51,
+				"itemName": "Cradle",
+				"cubicFeet": 10
+			},
+			{
+				"id": 52,
+				"itemName": "Crib, Baby (w/ Mattress)",
+				"cubicFeet": 10
+			},
+			{
+				"id": 53,
+				"itemName": "Cube Storage Unit (12 Cubes)",
+				"cubicFeet": 12
+			},
+			{
+				"id": 54,
+				"itemName": "Cube Storage Unit (3 Cubes)",
+				"cubicFeet": 3
+			},
+			{
+				"id": 55,
+				"itemName": "Cube Storage Unit (6 Cubes)",
+				"cubicFeet": 6
+			},
+			{
+				"id": 56,
+				"itemName": "Cube Storage Unit (8 Cubes)",
+				"cubicFeet": 8
+			},
+			{
+				"id": 57,
+				"itemName": "Dresser, Child",
+				"cubicFeet": 9
+			},
+			{
+				"id": 58,
+				"itemName": "Dresser, Double",
+				"cubicFeet": 50
+			},
+			{
+				"id": 59,
+				"itemName": "Dresser, Single",
+				"cubicFeet": 15
+			},
+			{
+				"id": 60,
+				"itemName": "Dresser, Triple",
+				"cubicFeet": 60
+			},
+			{
+				"id": 61,
+				"itemName": "Futon",
+				"cubicFeet": 15
+			},
+			{
+				"id": 62,
+				"itemName": "Hamper",
+				"cubicFeet": 3
+			},
+			{
+				"id": 63,
+				"itemName": "Ironing Board",
+				"cubicFeet": 2
+			},
+			{
+				"id": 64,
+				"itemName": "Jewelry Armoire",
+				"cubicFeet": 10
+			},
+			{
+				"id": 65,
+				"itemName": "Lamp, Floor (pbo)",
+				"cubicFeet": 7
+			},
+			{
+				"id": 66,
+				"itemName": "Lamp, Table (pbo)",
+				"cubicFeet": 3
+			},
+			{
+				"id": 67,
+				"itemName": "Mattress Single",
+				"cubicFeet": 15
+			},
+			{
+				"id": 68,
+				"itemName": "Mattress, Cali. King",
+				"cubicFeet": 28
+			},
+			{
+				"id": 69,
+				"itemName": "Mattress, Double/full",
+				"cubicFeet": 20
+			},
+			{
+				"id": 70,
+				"itemName": "Mattress, King",
+				"cubicFeet": 25
+			},
+			{
+				"id": 71,
+				"itemName": "Mattress, Queen",
+				"cubicFeet": 22
+			},
+			{
+				"id": 72,
+				"itemName": "Mattress, Twin",
+				"cubicFeet": 17
+			},
+			{
+				"id": 73,
+				"itemName": "Mirror For Dresser",
+				"cubicFeet": 5
+			},
+			{
+				"id": 74,
+				"itemName": "Mirror, Regular",
+				"cubicFeet": 5
+			},
+			{
+				"id": 75,
+				"itemName": "Night Stand",
+				"cubicFeet": 5
+			},
+			{
+				"id": 76,
+				"itemName": "Platform Frame",
+				"cubicFeet": 20
+			},
+			{
+				"id": 77,
+				"itemName": "Recliner",
+				"cubicFeet": 12
+			},
+			{
+				"id": 78,
+				"itemName": "Shoe Rack",
+				"cubicFeet": 5
+			},
+			{
+				"id": 79,
+				"itemName": "Sleigh Bed Frame",
+				"cubicFeet": 20
+			},
+			{
+				"id": 80,
+				"itemName": "Suitcase Sm.",
+				"cubicFeet": 3
+			},
+			{
+				"id": 81,
+				"itemName": "Suitcase, Lg.",
+				"cubicFeet": 5
+			},
+			{
+				"id": 82,
+				"itemName": "Table Lamp, Large",
+				"cubicFeet": 6
+			},
+			{
+				"id": 83,
+				"itemName": "Table, Vanity",
+				"cubicFeet": 10
+			},
+			{
+				"id": 84,
+				"itemName": "Under Bed Plastic Storage",
+				"cubicFeet": 6
+			},
+			{
+				"id": 85,
+				"itemName": "Vanity Bench",
+				"cubicFeet": 3
+			},
+			{
+				"id": 86,
+				"itemName": "Vanity Dresser",
+				"cubicFeet": 20
+			},
+			{
+				"id": 87,
+				"itemName": "Vanity, Dresser",
+				"cubicFeet": 20
+			},
+			{
+				"id": 88,
+				"itemName": "Wardrobe Closet",
+				"cubicFeet": 20
+			},
+			{
+				"id": 89,
+				"itemName": "Wardrobe, Large",
+				"cubicFeet": 40
+			},
+			{
+				"id": 90,
+				"itemName": "Wardrobe, Small",
+				"cubicFeet": 20
+			}
+		]
+	},
+	{
+		"id": 3,
+		"category": "Military",
+		"items": [
+			{
+				"id": 1,
+				"itemName": "Kit Bag",
+				"cubicFeet": 10
+			},
+			{
+				"id": 2,
+				"itemName": "Tent Ex Large",
+				"cubicFeet": 40
+			},
+			{
+				"id": 3,
+				"itemName": "Tent Large",
+				"cubicFeet": 30
+			},
+			{
+				"id": 4,
+				"itemName": "Tent Medium",
+				"cubicFeet": 20
+			},
+			{
+				"id": 5,
+				"itemName": "Tent Small",
+				"cubicFeet": 10
+			}
+		]
+	},
+	{
+		"id": 4,
+		"category": "Miscellaneous",
+		"items": [
+			{
+				"id": 1,
+				"itemName": "A Storage Unit - 5x10 - 1750",
+				"cubicFeet": 269
+			},
+			{
+				"id": 2,
+				"itemName": "A Storage Unit - 10x10 - 3500",
+				"cubicFeet": 538
+			},
+			{
+				"id": 3,
+				"itemName": "A Storage Unit - 10x15 - 5000",
+				"cubicFeet": 769
+			},
+			{
+				"id": 4,
+				"itemName": "A Storage Unit - 10x20 - 7000",
+				"cubicFeet": 1077
+			},
+			{
+				"id": 5,
+				"itemName": "A Storage Unit - 10x25 - 8500",
+				"cubicFeet": 1308
+			},
+			{
+				"id": 6,
+				"itemName": "A Storage Unit - 10x30 - 10000",
+				"cubicFeet": 1538
+			},
+			{
+				"id": 7,
+				"itemName": "Aquarium Stand",
+				"cubicFeet": 10
+			},
+			{
+				"id": 8,
+				"itemName": "Aquarium Stand, Lg.",
+				"cubicFeet": 25
+			},
+			{
+				"id": 9,
+				"itemName": "Aquarium, 10 Gal",
+				"cubicFeet": 5
+			},
+			{
+				"id": 10,
+				"itemName": "Aquarium, 20 Gal",
+				"cubicFeet": 10
+			},
+			{
+				"id": 11,
+				"itemName": "Aquarium, 55 Gal",
+				"cubicFeet": 20
+			},
+			{
+				"id": 12,
+				"itemName": "Ash Or Trash Can",
+				"cubicFeet": 5
+			},
+			{
+				"id": 13,
+				"itemName": "Baby Stroller",
+				"cubicFeet": 4
+			},
+			{
+				"id": 14,
+				"itemName": "Basket, Clothes",
+				"cubicFeet": 5
+			},
+			{
+				"id": 15,
+				"itemName": "Bean Bag Lg",
+				"cubicFeet": 10
+			},
+			{
+				"id": 16,
+				"itemName": "Bean Bag, Small",
+				"cubicFeet": 7
+			},
+			{
+				"id": 17,
+				"itemName": "Bike, Adult",
+				"cubicFeet": 10
+			},
+			{
+				"id": 18,
+				"itemName": "Bike, Child",
+				"cubicFeet": 5
+			},
+			{
+				"id": 19,
+				"itemName": "Bird Cage & Stand",
+				"cubicFeet": 5
+			},
+			{
+				"id": 20,
+				"itemName": "Book Shelf",
+				"cubicFeet": 20
+			},
+			{
+				"id": 21,
+				"itemName": "Card Table",
+				"cubicFeet": 1
+			},
+			{
+				"id": 22,
+				"itemName": "Carriage, Baby",
+				"cubicFeet": 15
+			},
+			{
+				"id": 23,
+				"itemName": "Cat Tree",
+				"cubicFeet": 7
+			},
+			{
+				"id": 24,
+				"itemName": "Cat Tree, Lg",
+				"cubicFeet": 10
+			},
+			{
+				"id": 25,
+				"itemName": "Chairs, Folding",
+				"cubicFeet": 1
+			},
+			{
+				"id": 26,
+				"itemName": "Child Car Seat",
+				"cubicFeet": 5
+			},
+			{
+				"id": 27,
+				"itemName": "Child Riding Toy Car",
+				"cubicFeet": 10
+			},
+			{
+				"id": 28,
+				"itemName": "Christmas Tree (pbo)",
+				"cubicFeet": 10
+			},
+			{
+				"id": 29,
+				"itemName": "Clothes Hamper",
+				"cubicFeet": 5
+			},
+			{
+				"id": 30,
+				"itemName": "Clothes Tree",
+				"cubicFeet": 3
+			},
+			{
+				"id": 31,
+				"itemName": "Cot, Folding",
+				"cubicFeet": 5
+			},
+			{
+				"id": 32,
+				"itemName": "Curio Cabinet",
+				"cubicFeet": 15
+			},
+			{
+				"id": 33,
+				"itemName": "Dehumidifier",
+				"cubicFeet": 5
+			},
+			{
+				"id": 34,
+				"itemName": "Dog/Cat Crate",
+				"cubicFeet": 7
+			},
+			{
+				"id": 35,
+				"itemName": "Dumbbell Weight Set",
+				"cubicFeet": 15
+			},
+			{
+				"id": 36,
+				"itemName": "Edger",
+				"cubicFeet": 5
+			},
+			{
+				"id": 37,
+				"itemName": "Fan",
+				"cubicFeet": 5
+			},
+			{
+				"id": 38,
+				"itemName": "Folding Treadmill",
+				"cubicFeet": 20
+			},
+			{
+				"id": 39,
+				"itemName": "Folding Wheel Chair",
+				"cubicFeet": 5
+			},
+			{
+				"id": 40,
+				"itemName": "Footlocker",
+				"cubicFeet": 5
+			},
+			{
+				"id": 41,
+				"itemName": "Framed Artwork (pbo)",
+				"cubicFeet": 2
+			},
+			{
+				"id": 42,
+				"itemName": "Free Weight Set",
+				"cubicFeet": 20
+			},
+			{
+				"id": 43,
+				"itemName": "Glass Top",
+				"cubicFeet": 10
+			},
+			{
+				"id": 44,
+				"itemName": "Golf Bag",
+				"cubicFeet": 2
+			},
+			{
+				"id": 45,
+				"itemName": "Guitar (in Case)",
+				"cubicFeet": 5
+			},
+			{
+				"id": 46,
+				"itemName": "Gun Safe",
+				"cubicFeet": 25
+			},
+			{
+				"id": 47,
+				"itemName": "Gun Safe Regular",
+				"cubicFeet": 15
+			},
+			{
+				"id": 48,
+				"itemName": "Gun Safe Small",
+				"cubicFeet": 10
+			},
+			{
+				"id": 49,
+				"itemName": "Harley Davidson Motorcycle",
+				"cubicFeet": 150
+			},
+			{
+				"id": 50,
+				"itemName": "Heater, Gas/Elec",
+				"cubicFeet": 5
+			},
+			{
+				"id": 51,
+				"itemName": "High Boy",
+				"cubicFeet": 20
+			},
+			{
+				"id": 52,
+				"itemName": "Humidifier",
+				"cubicFeet": 5
+			},
+			{
+				"id": 53,
+				"itemName": "Kayak (up To 8 Foot)",
+				"cubicFeet": 50
+			},
+			{
+				"id": 54,
+				"itemName": "Keyboard (organ)",
+				"cubicFeet": 10
+			},
+			{
+				"id": 55,
+				"itemName": "Keyboard With Stand",
+				"cubicFeet": 12
+			},
+			{
+				"id": 56,
+				"itemName": "Large Picture",
+				"cubicFeet": 5
+			},
+			{
+				"id": 57,
+				"itemName": "Large Picture",
+				"cubicFeet": 5
+			},
+			{
+				"id": 58,
+				"itemName": "Library Table",
+				"cubicFeet": 10
+			},
+			{
+				"id": 59,
+				"itemName": "Metal Shelves",
+				"cubicFeet": 5
+			},
+			{
+				"id": 60,
+				"itemName": "Metal Shelves Unit",
+				"cubicFeet": 15
+			},
+			{
+				"id": 61,
+				"itemName": "Mirror, Lg.",
+				"cubicFeet": 10
+			},
+			{
+				"id": 62,
+				"itemName": "Motorcycle (not Includ Crate)",
+				"cubicFeet": 80
+			},
+			{
+				"id": 63,
+				"itemName": "Motorized Childrens Car Toy",
+				"cubicFeet": 10
+			},
+			{
+				"id": 64,
+				"itemName": "Painting, Art Work Xl",
+				"cubicFeet": 8
+			},
+			{
+				"id": 65,
+				"itemName": "Pedestal",
+				"cubicFeet": 7
+			},
+			{
+				"id": 66,
+				"itemName": "Pictures, Medium",
+				"cubicFeet": 3
+			},
+			{
+				"id": 67,
+				"itemName": "Pictures, Small",
+				"cubicFeet": 2
+			},
+			{
+				"id": 68,
+				"itemName": "Ping Pong Table",
+				"cubicFeet": 20
+			},
+			{
+				"id": 69,
+				"itemName": "Plant Stand",
+				"cubicFeet": 5
+			},
+			{
+				"id": 70,
+				"itemName": "Plant Stand, Lg",
+				"cubicFeet": 7
+			},
+			{
+				"id": 71,
+				"itemName": "Plant Stand, Sm",
+				"cubicFeet": 4
+			},
+			{
+				"id": 72,
+				"itemName": "Plastic Bin, Lg.",
+				"cubicFeet": 7
+			},
+			{
+				"id": 73,
+				"itemName": "Plastic Bin, Med.",
+				"cubicFeet": 5
+			},
+			{
+				"id": 74,
+				"itemName": "Plastic Bin, Sm.",
+				"cubicFeet": 4
+			},
+			{
+				"id": 75,
+				"itemName": "Plastic Drawers",
+				"cubicFeet": 4
+			},
+			{
+				"id": 76,
+				"itemName": "Plastic Shelving Unit, Lg",
+				"cubicFeet": 11
+			},
+			{
+				"id": 77,
+				"itemName": "Plastic Shelving Unit, Sm",
+				"cubicFeet": 6
+			},
+			{
+				"id": 78,
+				"itemName": "Play House (for Kids)",
+				"cubicFeet": 10
+			},
+			{
+				"id": 79,
+				"itemName": "Playpen, Folding",
+				"cubicFeet": 5
+			},
+			{
+				"id": 80,
+				"itemName": "Pool Table W Slate",
+				"cubicFeet": 100
+			},
+			{
+				"id": 81,
+				"itemName": "Pool Table W/o Slate",
+				"cubicFeet": 40
+			},
+			{
+				"id": 82,
+				"itemName": "Pottery",
+				"cubicFeet": 4
+			},
+			{
+				"id": 83,
+				"itemName": "Rack, Fireplace Tools",
+				"cubicFeet": 5
+			},
+			{
+				"id": 84,
+				"itemName": "Saddle",
+				"cubicFeet": 5
+			},
+			{
+				"id": 85,
+				"itemName": "Screen, Fireplace",
+				"cubicFeet": 5
+			},
+			{
+				"id": 86,
+				"itemName": "Screen, Folding",
+				"cubicFeet": 5
+			},
+			{
+				"id": 87,
+				"itemName": "Sewing Machine",
+				"cubicFeet": 10
+			},
+			{
+				"id": 88,
+				"itemName": "Sewing Machine Console Table",
+				"cubicFeet": 10
+			},
+			{
+				"id": 89,
+				"itemName": "Sewing Machine Pedals",
+				"cubicFeet": 20
+			},
+			{
+				"id": 90,
+				"itemName": "Sewing Machine, Portable",
+				"cubicFeet": 5
+			},
+			{
+				"id": 91,
+				"itemName": "Sideboard",
+				"cubicFeet": 10
+			},
+			{
+				"id": 92,
+				"itemName": "Skiis",
+				"cubicFeet": 5
+			},
+			{
+				"id": 93,
+				"itemName": "Sled",
+				"cubicFeet": 2
+			},
+			{
+				"id": 94,
+				"itemName": "Snowboard (with Bag)",
+				"cubicFeet": 7
+			},
+			{
+				"id": 95,
+				"itemName": "Stand",
+				"cubicFeet": 5
+			},
+			{
+				"id": 96,
+				"itemName": "Step Laddder",
+				"cubicFeet": 5
+			},
+			{
+				"id": 97,
+				"itemName": "Stool, Sm.",
+				"cubicFeet": 3
+			},
+			{
+				"id": 98,
+				"itemName": "Suitcase",
+				"cubicFeet": 4
+			},
+			{
+				"id": 99,
+				"itemName": "Surf Board",
+				"cubicFeet": 10
+			},
+			{
+				"id": 100,
+				"itemName": "Table Utility",
+				"cubicFeet": 5
+			},
+			{
+				"id": 101,
+				"itemName": "Table, Drop Leaf",
+				"cubicFeet": 16
+			},
+			{
+				"id": 102,
+				"itemName": "Table, Large",
+				"cubicFeet": 8
+			},
+			{
+				"id": 103,
+				"itemName": "Table, Medium",
+				"cubicFeet": 6
+			},
+			{
+				"id": 104,
+				"itemName": "Table, Small",
+				"cubicFeet": 4
+			},
+			{
+				"id": 105,
+				"itemName": "Tackle Box",
+				"cubicFeet": 2
+			},
+			{
+				"id": 106,
+				"itemName": "Tire (for Car)",
+				"cubicFeet": 5
+			},
+			{
+				"id": 107,
+				"itemName": "Tool Chest, Large",
+				"cubicFeet": 15
+			},
+			{
+				"id": 108,
+				"itemName": "Tool Chest, Medium",
+				"cubicFeet": 10
+			},
+			{
+				"id": 109,
+				"itemName": "Tool Chest, Small",
+				"cubicFeet": 5
+			},
+			{
+				"id": 110,
+				"itemName": "Treadmill",
+				"cubicFeet": 35
+			},
+			{
+				"id": 111,
+				"itemName": "Tricycle",
+				"cubicFeet": 3
+			},
+			{
+				"id": 112,
+				"itemName": "Wagon, Childs",
+				"cubicFeet": 5
+			},
+			{
+				"id": 113,
+				"itemName": "Walker",
+				"cubicFeet": 2
+			},
+			{
+				"id": 114,
+				"itemName": "Wall Shelves",
+				"cubicFeet": 10
+			},
+			{
+				"id": 115,
+				"itemName": "Wheel Chair",
+				"cubicFeet": 12
+			},
+			{
+				"id": 116,
+				"itemName": "Wheel Chair (scooter W/ Motor)",
+				"cubicFeet": 50
+			},
+			{
+				"id": 117,
+				"itemName": "Work Bench Large",
+				"cubicFeet": 25
+			},
+			{
+				"id": 118,
+				"itemName": "Work Bench, Reg.",
+				"cubicFeet": 20
+			},
+			{
+				"id": 119,
+				"itemName": "Work Bench, Sm.",
+				"cubicFeet": 10
+			},
+			{
+				"id": 120,
+				"itemName": "Workbench",
+				"cubicFeet": 20
+			}
+		]
+	},
+	{
+		"id": 5,
+		"category": "Den, Office, Study",
+		"items": [
+			{
+				"id": 1,
+				"itemName": "Chair, Folding",
+				"cubicFeet": 2
+			},
+			{
+				"id": 2,
+				"itemName": "Chair, Office",
+				"cubicFeet": 5
+			},
+			{
+				"id": 3,
+				"itemName": "Chair, Office,(lg.)",
+				"cubicFeet": 10
+			},
+			{
+				"id": 4,
+				"itemName": "Chair, Swivel, Office",
+				"cubicFeet": 8
+			},
+			{
+				"id": 5,
+				"itemName": "Computer Chair",
+				"cubicFeet": 5
+			},
+			{
+				"id": 6,
+				"itemName": "Computer Desk",
+				"cubicFeet": 15
+			},
+			{
+				"id": 7,
+				"itemName": "Computer Screen (pbo)",
+				"cubicFeet": 5
+			},
+			{
+				"id": 8,
+				"itemName": "Copier/printer, Large",
+				"cubicFeet": 12
+			},
+			{
+				"id": 9,
+				"itemName": "Copier/printer, Small",
+				"cubicFeet": 8
+			},
+			{
+				"id": 10,
+				"itemName": "Corner Cabinet",
+				"cubicFeet": 30
+			},
+			{
+				"id": 11,
+				"itemName": "Desk Chair, Large",
+				"cubicFeet": 10
+			},
+			{
+				"id": 12,
+				"itemName": "Desk Chair, Small",
+				"cubicFeet": 5
+			},
+			{
+				"id": 13,
+				"itemName": "Desk, Executive",
+				"cubicFeet": 40
+			},
+			{
+				"id": 14,
+				"itemName": "Desk, Regular",
+				"cubicFeet": 20
+			},
+			{
+				"id": 15,
+				"itemName": "Desk, Small",
+				"cubicFeet": 12
+			},
+			{
+				"id": 16,
+				"itemName": "File Cabinet Lateral, Lg",
+				"cubicFeet": 30
+			},
+			{
+				"id": 17,
+				"itemName": "File Cabinet, 2 Drawer",
+				"cubicFeet": 6
+			},
+			{
+				"id": 18,
+				"itemName": "File Cabinet, 3 Drawer",
+				"cubicFeet": 8
+			},
+			{
+				"id": 19,
+				"itemName": "File Cabinet, 4 Drawer",
+				"cubicFeet": 10
+			},
+			{
+				"id": 20,
+				"itemName": "File Cabinet, 5 Drawer",
+				"cubicFeet": 25
+			},
+			{
+				"id": 21,
+				"itemName": "File Cabinet, Lateral",
+				"cubicFeet": 15
+			},
+			{
+				"id": 22,
+				"itemName": "File Cabinet, Lateral Sm.",
+				"cubicFeet": 20
+			},
+			{
+				"id": 23,
+				"itemName": "Paper Shredder",
+				"cubicFeet": 3
+			},
+			{
+				"id": 24,
+				"itemName": "Printer Desk Top Lg",
+				"cubicFeet": 5
+			},
+			{
+				"id": 25,
+				"itemName": "Safe, Small",
+				"cubicFeet": 10
+			},
+			{
+				"id": 26,
+				"itemName": "Standing Copier, Office",
+				"cubicFeet": 25
+			},
+			{
+				"id": 27,
+				"itemName": "Statue Lg",
+				"cubicFeet": 15
+			},
+			{
+				"id": 28,
+				"itemName": "Statue, Medium",
+				"cubicFeet": 10
+			},
+			{
+				"id": 29,
+				"itemName": "Statue, Small",
+				"cubicFeet": 5
+			},
+			{
+				"id": 30,
+				"itemName": "Table",
+				"cubicFeet": 5
+			},
+			{
+				"id": 31,
+				"itemName": "Table, Conference",
+				"cubicFeet": 50
+			}
+		]
+	},
+	{
+		"id": 6,
+		"category": "Dining Room",
+		"items": [
+			{
+				"id": 1,
+				"itemName": "Baby Chair, High",
+				"cubicFeet": 6
+			},
+			{
+				"id": 2,
+				"itemName": "Bench, Harvest",
+				"cubicFeet": 10
+			},
+			{
+				"id": 3,
+				"itemName": "Breakfront 1 Piece",
+				"cubicFeet": 25
+			},
+			{
+				"id": 4,
+				"itemName": "Buffet, Base",
+				"cubicFeet": 30
+			},
+			{
+				"id": 5,
+				"itemName": "Buffet, Top",
+				"cubicFeet": 20
+			},
+			{
+				"id": 6,
+				"itemName": "Cabinet, China",
+				"cubicFeet": 25
+			},
+			{
+				"id": 7,
+				"itemName": "Cabinet, Corner",
+				"cubicFeet": 20
+			},
+			{
+				"id": 8,
+				"itemName": "Chair Arm",
+				"cubicFeet": 8
+			},
+			{
+				"id": 9,
+				"itemName": "Chair, High Back",
+				"cubicFeet": 6
+			},
+			{
+				"id": 10,
+				"itemName": "Chair, Single",
+				"cubicFeet": 5
+			},
+			{
+				"id": 11,
+				"itemName": "Dining Chair",
+				"cubicFeet": 5
+			},
+			{
+				"id": 12,
+				"itemName": "Dining Chair + Arm",
+				"cubicFeet": 6
+			},
+			{
+				"id": 13,
+				"itemName": "Dining Table",
+				"cubicFeet": 25
+			},
+			{
+				"id": 14,
+				"itemName": "Kitchen Chair",
+				"cubicFeet": 8
+			},
+			{
+				"id": 15,
+				"itemName": "Kitchen Table",
+				"cubicFeet": 12
+			},
+			{
+				"id": 16,
+				"itemName": "Server",
+				"cubicFeet": 15
+			},
+			{
+				"id": 17,
+				"itemName": "Table Extension",
+				"cubicFeet": 30
+			},
+			{
+				"id": 18,
+				"itemName": "Table, Dinnett",
+				"cubicFeet": 15
+			},
+			{
+				"id": 19,
+				"itemName": "Table, Extension Leaf",
+				"cubicFeet": 3
+			},
+			{
+				"id": 20,
+				"itemName": "Table, Folding",
+				"cubicFeet": 5
+			},
+			{
+				"id": 21,
+				"itemName": "Tea Cart",
+				"cubicFeet": 5
+			},
+			{
+				"id": 22,
+				"itemName": "Wine Rack, Small",
+				"cubicFeet": 5
+			}
+		]
+	},
+	{
+		"id": 7,
+		"category": "Exercise & Sport Equipment",
+		"items": [
+			{
+				"id": 1,
+				"itemName": "Bicycle",
+				"cubicFeet": 7
+			},
+			{
+				"id": 2,
+				"itemName": "Camp Stove",
+				"cubicFeet": 5
+			},
+			{
+				"id": 3,
+				"itemName": "Cooler, Large",
+				"cubicFeet": 5
+			},
+			{
+				"id": 4,
+				"itemName": "Cooler, Small",
+				"cubicFeet": 3
+			},
+			{
+				"id": 5,
+				"itemName": "Exercise Bike",
+				"cubicFeet": 10
+			},
+			{
+				"id": 6,
+				"itemName": "Skis",
+				"cubicFeet": 2
+			},
+			{
+				"id": 7,
+				"itemName": "Tent",
+				"cubicFeet": 5
+			},
+			{
+				"id": 8,
+				"itemName": "Treadmill/stairstepper",
+				"cubicFeet": 20
+			},
+			{
+				"id": 9,
+				"itemName": "Universal Gym Component",
+				"cubicFeet": 10
+			},
+			{
+				"id": 10,
+				"itemName": "Weight Bench",
+				"cubicFeet": 5
+			}
+		]
+	},
+	{
+		"id": 8,
+		"category": "Household",
+		"items": [
+			{
+				"id": 1,
+				"itemName": "Chair, Plastic",
+				"cubicFeet": 3
+			},
+			{
+				"id": 2,
+				"itemName": "Chair, Club",
+				"cubicFeet": 16
+			},
+			{
+				"id": 3,
+				"itemName": "China Cabinet 1 Piece",
+				"cubicFeet": 30
+			},
+			{
+				"id": 4,
+				"itemName": "China Cabinet 2 Piece",
+				"cubicFeet": 50
+			},
+			{
+				"id": 5,
+				"itemName": "Footboard Large",
+				"cubicFeet": 20
+			},
+			{
+				"id": 6,
+				"itemName": "Footboard Regular",
+				"cubicFeet": 10
+			},
+			{
+				"id": 7,
+				"itemName": "Grandfather Clock",
+				"cubicFeet": 30
+			},
+			{
+				"id": 8,
+				"itemName": "Headboard Large",
+				"cubicFeet": 20
+			},
+			{
+				"id": 9,
+				"itemName": "Headboard Regular",
+				"cubicFeet": 10
+			},
+			{
+				"id": 10,
+				"itemName": "Rug Large",
+				"cubicFeet": 10
+			},
+			{
+				"id": 11,
+				"itemName": "Wall Clock",
+				"cubicFeet": 3
+			}
+		]
+	},
+	{
+		"id": 9,
+		"category": "Inventory",
+		"items": [
+			{
+				"id": 1,
+				"itemName": "Air Conditioner, Large",
+				"cubicFeet": 12
+			},
+			{
+				"id": 2,
+				"itemName": "Baby Gate",
+				"cubicFeet": 5
+			},
+			{
+				"id": 3,
+				"itemName": "Bed Box Spring Only",
+				"cubicFeet": 20
+			},
+			{
+				"id": 4,
+				"itemName": "Bed Bunk (without Mattress)",
+				"cubicFeet": 50
+			},
+			{
+				"id": 5,
+				"itemName": "Bed Frame Metal",
+				"cubicFeet": 10
+			},
+			{
+				"id": 6,
+				"itemName": "Bed Frame Wood Or Platform",
+				"cubicFeet": 40
+			},
+			{
+				"id": 7,
+				"itemName": "Bed, Bridgelight",
+				"cubicFeet": 95
+			},
+			{
+				"id": 8,
+				"itemName": "Bed, Bunk (with Mattress)",
+				"cubicFeet": 70
+			},
+			{
+				"id": 9,
+				"itemName": "Bed, Canopy",
+				"cubicFeet": 16
+			},
+			{
+				"id": 10,
+				"itemName": "Bed, Captain (with Mattress)",
+				"cubicFeet": 50
+			},
+			{
+				"id": 11,
+				"itemName": "Bed, Double (with Mattress)",
+				"cubicFeet": 55
+			},
+			{
+				"id": 12,
+				"itemName": "Bed, Footboard Large",
+				"cubicFeet": 15
+			},
+			{
+				"id": 13,
+				"itemName": "Bed, Headboard Large",
+				"cubicFeet": 15
+			},
+			{
+				"id": 14,
+				"itemName": "Bed, King (with Mattress)",
+				"cubicFeet": 70
+			},
+			{
+				"id": 15,
+				"itemName": "Bed, Queen (with Mattress)",
+				"cubicFeet": 65
+			},
+			{
+				"id": 16,
+				"itemName": "Bed, Single (with Mattress)",
+				"cubicFeet": 40
+			},
+			{
+				"id": 17,
+				"itemName": "Bed, Toddler",
+				"cubicFeet": 20
+			},
+			{
+				"id": 18,
+				"itemName": "Bed, Twin (with Mattress)",
+				"cubicFeet": 40
+			},
+			{
+				"id": 19,
+				"itemName": "Bench, Vanity",
+				"cubicFeet": 5
+			},
+			{
+				"id": 20,
+				"itemName": "Buffet Base",
+				"cubicFeet": 30
+			},
+			{
+				"id": 21,
+				"itemName": "Butcher Block",
+				"cubicFeet": 20
+			},
+			{
+				"id": 22,
+				"itemName": "Chair, Dining",
+				"cubicFeet": 5
+			},
+			{
+				"id": 23,
+				"itemName": "Chair, Dining + Arm",
+				"cubicFeet": 8
+			},
+			{
+				"id": 24,
+				"itemName": "Chair, Occasional",
+				"cubicFeet": 10
+			},
+			{
+				"id": 25,
+				"itemName": "Chair, Office Large",
+				"cubicFeet": 10
+			},
+			{
+				"id": 26,
+				"itemName": "Chair, Office Small",
+				"cubicFeet": 5
+			},
+			{
+				"id": 27,
+				"itemName": "Chandelier, Sm",
+				"cubicFeet": 10
+			},
+			{
+				"id": 28,
+				"itemName": "Chest Of Drawers, Large",
+				"cubicFeet": 30
+			},
+			{
+				"id": 29,
+				"itemName": "Chest Of Drawers, Medium",
+				"cubicFeet": 25
+			},
+			{
+				"id": 30,
+				"itemName": "Chest Of Drawers, Small",
+				"cubicFeet": 16
+			},
+			{
+				"id": 31,
+				"itemName": "Chest, Lingerie",
+				"cubicFeet": 10
+			},
+			{
+				"id": 32,
+				"itemName": "Child, Chair",
+				"cubicFeet": 5
+			},
+			{
+				"id": 33,
+				"itemName": "Child, Walker",
+				"cubicFeet": 5
+			},
+			{
+				"id": 34,
+				"itemName": "China Cabinet (1 Piece)",
+				"cubicFeet": 30
+			},
+			{
+				"id": 35,
+				"itemName": "China Cabinet (2 Piece)",
+				"cubicFeet": 50
+			},
+			{
+				"id": 36,
+				"itemName": "Computer Screen",
+				"cubicFeet": 5
+			},
+			{
+				"id": 37,
+				"itemName": "Crib",
+				"cubicFeet": 10
+			},
+			{
+				"id": 38,
+				"itemName": "Crib, Large",
+				"cubicFeet": 20
+			},
+			{
+				"id": 39,
+				"itemName": "Cube Shelf (large)",
+				"cubicFeet": 20
+			},
+			{
+				"id": 40,
+				"itemName": "Cube Shelf (med)",
+				"cubicFeet": 10
+			},
+			{
+				"id": 41,
+				"itemName": "Cube Shelf (small)",
+				"cubicFeet": 5
+			},
+			{
+				"id": 42,
+				"itemName": "Desk, L Shape",
+				"cubicFeet": 35
+			},
+			{
+				"id": 43,
+				"itemName": "Desk, Large",
+				"cubicFeet": 50
+			},
+			{
+				"id": 44,
+				"itemName": "Desk, Medium",
+				"cubicFeet": 25
+			},
+			{
+				"id": 45,
+				"itemName": "Dining Table, Large",
+				"cubicFeet": 30
+			},
+			{
+				"id": 46,
+				"itemName": "Dining Table, Medium",
+				"cubicFeet": 22
+			},
+			{
+				"id": 47,
+				"itemName": "Doll House",
+				"cubicFeet": 10
+			},
+			{
+				"id": 48,
+				"itemName": "Dresser, Mirror",
+				"cubicFeet": 5
+			},
+			{
+				"id": 49,
+				"itemName": "Dresser, Vanity",
+				"cubicFeet": 16
+			},
+			{
+				"id": 50,
+				"itemName": "File Cabinet (2 Drawer Lateral)",
+				"cubicFeet": 20
+			},
+			{
+				"id": 51,
+				"itemName": "File Cabinet (2 Drawer)",
+				"cubicFeet": 10
+			},
+			{
+				"id": 52,
+				"itemName": "File Cabinet (3 Drawer Lateral)",
+				"cubicFeet": 30
+			},
+			{
+				"id": 53,
+				"itemName": "File Cabinet (3 Drawer)",
+				"cubicFeet": 15
+			},
+			{
+				"id": 54,
+				"itemName": "File Cabinet (4 Drawer Lateral)",
+				"cubicFeet": 40
+			},
+			{
+				"id": 55,
+				"itemName": "File Cabinet (4 Drawer)",
+				"cubicFeet": 20
+			},
+			{
+				"id": 56,
+				"itemName": "File Cabinet (5 Drawer Lateral)",
+				"cubicFeet": 50
+			},
+			{
+				"id": 57,
+				"itemName": "Freezer, Xlarge",
+				"cubicFeet": 60
+			},
+			{
+				"id": 58,
+				"itemName": "Glass Table Top",
+				"cubicFeet": 5
+			},
+			{
+				"id": 59,
+				"itemName": "Hutch (1 Piece)",
+				"cubicFeet": 20
+			},
+			{
+				"id": 60,
+				"itemName": "Hutch (2 Piece)",
+				"cubicFeet": 30
+			},
+			{
+				"id": 61,
+				"itemName": "Kitchenaide Mixer",
+				"cubicFeet": 5
+			},
+			{
+				"id": 62,
+				"itemName": "Lamp Large",
+				"cubicFeet": 10
+			},
+			{
+				"id": 63,
+				"itemName": "Lamp P.b.o.",
+				"cubicFeet": 5
+			},
+			{
+				"id": 64,
+				"itemName": "Lamp, Floor P.b.o",
+				"cubicFeet": 7
+			},
+			{
+				"id": 65,
+				"itemName": "Mattress Only, Dbl/full",
+				"cubicFeet": 20
+			},
+			{
+				"id": 66,
+				"itemName": "Mattress Only, King",
+				"cubicFeet": 25
+			},
+			{
+				"id": 67,
+				"itemName": "Mattress Only, Queen",
+				"cubicFeet": 22
+			},
+			{
+				"id": 68,
+				"itemName": "Mattress Only, Twin/single",
+				"cubicFeet": 16
+			},
+			{
+				"id": 69,
+				"itemName": "Microwave",
+				"cubicFeet": 5
+			},
+			{
+				"id": 70,
+				"itemName": "Mirror, Large",
+				"cubicFeet": 10
+			},
+			{
+				"id": 71,
+				"itemName": "Mirror, Medium",
+				"cubicFeet": 5
+			},
+			{
+				"id": 72,
+				"itemName": "Mirror, Small",
+				"cubicFeet": 3
+			},
+			{
+				"id": 73,
+				"itemName": "Ottoman, Large",
+				"cubicFeet": 10
+			},
+			{
+				"id": 74,
+				"itemName": "Ottoman, Small",
+				"cubicFeet": 5
+			},
+			{
+				"id": 75,
+				"itemName": "Pedestal (for Washer/dryer)",
+				"cubicFeet": 5
+			},
+			{
+				"id": 76,
+				"itemName": "Play Kitchen",
+				"cubicFeet": 8
+			},
+			{
+				"id": 77,
+				"itemName": "Power Wheels",
+				"cubicFeet": 10
+			},
+			{
+				"id": 78,
+				"itemName": "Printer, Large",
+				"cubicFeet": 15
+			},
+			{
+				"id": 79,
+				"itemName": "Printer, Regular",
+				"cubicFeet": 5
+			},
+			{
+				"id": 80,
+				"itemName": "Refrigerator, Dormity",
+				"cubicFeet": 10
+			},
+			{
+				"id": 81,
+				"itemName": "Refrigerator, Side By Side",
+				"cubicFeet": 60
+			},
+			{
+				"id": 82,
+				"itemName": "Rug Small",
+				"cubicFeet": 5
+			},
+			{
+				"id": 83,
+				"itemName": "Safe, Gun",
+				"cubicFeet": 35
+			},
+			{
+				"id": 84,
+				"itemName": "Safe, Large",
+				"cubicFeet": 40
+			},
+			{
+				"id": 85,
+				"itemName": "Safe, Medium",
+				"cubicFeet": 25
+			},
+			{
+				"id": 86,
+				"itemName": "Safe, Xlarge",
+				"cubicFeet": 50
+			},
+			{
+				"id": 87,
+				"itemName": "Sofa, 2 Loveseat",
+				"cubicFeet": 35
+			},
+			{
+				"id": 88,
+				"itemName": "Sofa, Sectional - 2 Piece",
+				"cubicFeet": 90
+			},
+			{
+				"id": 89,
+				"itemName": "Sofa, Sectional - 3 Piece",
+				"cubicFeet": 105
+			},
+			{
+				"id": 90,
+				"itemName": "Sofa, Sectional - 4 Piece",
+				"cubicFeet": 120
+			},
+			{
+				"id": 91,
+				"itemName": "Sofa, Sectional - 5 Piece",
+				"cubicFeet": 150
+			},
+			{
+				"id": 92,
+				"itemName": "Soundbar",
+				"cubicFeet": 5
+			},
+			{
+				"id": 93,
+				"itemName": "Speaker, Large",
+				"cubicFeet": 10
+			},
+			{
+				"id": 94,
+				"itemName": "Speaker, Regular",
+				"cubicFeet": 5
+			},
+			{
+				"id": 95,
+				"itemName": "Stand Med",
+				"cubicFeet": 5
+			},
+			{
+				"id": 96,
+				"itemName": "Stand Small",
+				"cubicFeet": 3
+			},
+			{
+				"id": 97,
+				"itemName": "Stereo System Pbo",
+				"cubicFeet": 5
+			},
+			{
+				"id": 98,
+				"itemName": "Stroller, Triple",
+				"cubicFeet": 20
+			},
+			{
+				"id": 99,
+				"itemName": "Suitcase Carry On",
+				"cubicFeet": 5
+			},
+			{
+				"id": 100,
+				"itemName": "Suitcase, Check In",
+				"cubicFeet": 10
+			},
+			{
+				"id": 101,
+				"itemName": "Table, Kitchen Sm",
+				"cubicFeet": 10
+			},
+			{
+				"id": 102,
+				"itemName": "Table, Pub",
+				"cubicFeet": 10
+			},
+			{
+				"id": 103,
+				"itemName": "Toaster Over P.b.o.",
+				"cubicFeet": 3
+			},
+			{
+				"id": 104,
+				"itemName": "Tv 15x-32x",
+				"cubicFeet": 10
+			},
+			{
+				"id": 105,
+				"itemName": "Tv 20 inch Or Smaller",
+				"cubicFeet": 5
+			},
+			{
+				"id": 106,
+				"itemName": "Tv 33x-60x",
+				"cubicFeet": 15
+			},
+			{
+				"id": 107,
+				"itemName": "Tv 60x+",
+				"cubicFeet": 17
+			},
+			{
+				"id": 108,
+				"itemName": "Tv Big Screen",
+				"cubicFeet": 54
+			},
+			{
+				"id": 109,
+				"itemName": "Tv Flat Screen 15 inch-32 inch",
+				"cubicFeet": 10
+			},
+			{
+				"id": 110,
+				"itemName": "Tv Flat Screen 33 inch-60 inch",
+				"cubicFeet": 15
+			},
+			{
+				"id": 111,
+				"itemName": "Tv Flat Screen 60 inch +",
+				"cubicFeet": 17
+			},
+			{
+				"id": 112,
+				"itemName": "Tv Stand Regular",
+				"cubicFeet": 10
+			},
+			{
+				"id": 113,
+				"itemName": "Tv Stand Small",
+				"cubicFeet": 5
+			},
+			{
+				"id": 114,
+				"itemName": "Washer",
+				"cubicFeet": 25
+			},
+			{
+				"id": 115,
+				"itemName": "Wine Rack",
+				"cubicFeet": 5
+			}
+		]
+	},
+	{
+		"id": 10,
+		"category": "Nursery",
+		"items": [
+			{
+				"id": 1,
+				"itemName": "Bassinette",
+				"cubicFeet": 3
+			},
+			{
+				"id": 2,
+				"itemName": "Bed, Youth",
+				"cubicFeet": 30
+			},
+			{
+				"id": 3,
+				"itemName": "Chair, Childs",
+				"cubicFeet": 3
+			},
+			{
+				"id": 4,
+				"itemName": "Chair, High",
+				"cubicFeet": 5
+			},
+			{
+				"id": 5,
+				"itemName": "Crib, Baby",
+				"cubicFeet": 10
+			},
+			{
+				"id": 6,
+				"itemName": "Folding Play Pen",
+				"cubicFeet": 10
+			},
+			{
+				"id": 7,
+				"itemName": "Glider Chair",
+				"cubicFeet": 8
+			},
+			{
+				"id": 8,
+				"itemName": "Play Pen",
+				"cubicFeet": 5
+			},
+			{
+				"id": 9,
+				"itemName": "Stroller",
+				"cubicFeet": 4
+			},
+			{
+				"id": 10,
+				"itemName": "Stroller Double",
+				"cubicFeet": 6
+			},
+			{
+				"id": 11,
+				"itemName": "Stroller Triple",
+				"cubicFeet": 8
+			},
+			{
+				"id": 12,
+				"itemName": "Stroller, Baby",
+				"cubicFeet": 8
+			},
+			{
+				"id": 13,
+				"itemName": "Table, Childs",
+				"cubicFeet": 5
+			},
+			{
+				"id": 14,
+				"itemName": "Toddler Bed",
+				"cubicFeet": 15
+			}
+		]
+	},
+	{
+		"id": 11,
+		"category": "Other items",
+		"items": [
+			{
+				"id": 1,
+				"itemName": "Air Conditioner",
+				"cubicFeet": 5
+			},
+			{
+				"id": 2,
+				"itemName": "Antique Table",
+				"cubicFeet": 10
+			},
+			{
+				"id": 3,
+				"itemName": "Baby Carriage",
+				"cubicFeet": 4
+			},
+			{
+				"id": 4,
+				"itemName": "Bar B Q Grill Camping Small",
+				"cubicFeet": 2
+			},
+			{
+				"id": 5,
+				"itemName": "Bar B Q Grill Large",
+				"cubicFeet": 10
+			},
+			{
+				"id": 6,
+				"itemName": "Bar,portable",
+				"cubicFeet": 15
+			},
+			{
+				"id": 7,
+				"itemName": "Barbells",
+				"cubicFeet": 5
+			},
+			{
+				"id": 8,
+				"itemName": "Basket(clothes)",
+				"cubicFeet": 5
+			},
+			{
+				"id": 9,
+				"itemName": "Bench (piano)",
+				"cubicFeet": 5
+			},
+			{
+				"id": 10,
+				"itemName": "Bicycle (adult)",
+				"cubicFeet": 5
+			},
+			{
+				"id": 11,
+				"itemName": "Bicycle (child)",
+				"cubicFeet": 2
+			},
+			{
+				"id": 12,
+				"itemName": "Book Box Small",
+				"cubicFeet": 2
+			},
+			{
+				"id": 13,
+				"itemName": "Bookshelves, Sec",
+				"cubicFeet": 5
+			},
+			{
+				"id": 14,
+				"itemName": "Bowling Ball Bag",
+				"cubicFeet": 3
+			},
+			{
+				"id": 15,
+				"itemName": "Box Lamp",
+				"cubicFeet": 10
+			},
+			{
+				"id": 16,
+				"itemName": "Box Spring",
+				"cubicFeet": 7
+			},
+			{
+				"id": 17,
+				"itemName": "Broom, Mop Bucket Etc.",
+				"cubicFeet": 1
+			},
+			{
+				"id": 18,
+				"itemName": "Buffer (base)",
+				"cubicFeet": 30
+			},
+			{
+				"id": 19,
+				"itemName": "Cabinet (corner)",
+				"cubicFeet": 15
+			},
+			{
+				"id": 20,
+				"itemName": "Chair, Aluminum",
+				"cubicFeet": 1
+			},
+			{
+				"id": 21,
+				"itemName": "Chair, Wingback",
+				"cubicFeet": 15
+			},
+			{
+				"id": 22,
+				"itemName": "Chairs, Metal",
+				"cubicFeet": 3
+			},
+			{
+				"id": 23,
+				"itemName": "Chairs, Wood",
+				"cubicFeet": 5
+			},
+			{
+				"id": 24,
+				"itemName": "Chest",
+				"cubicFeet": 5
+			},
+			{
+				"id": 25,
+				"itemName": "Chest, Bachelor",
+				"cubicFeet": 12
+			},
+			{
+				"id": 26,
+				"itemName": "China Dish Box",
+				"cubicFeet": 4
+			},
+			{
+				"id": 27,
+				"itemName": "Dish Pack",
+				"cubicFeet": 10
+			},
+			{
+				"id": 28,
+				"itemName": "Dresser/vanity Bch",
+				"cubicFeet": 3
+			},
+			{
+				"id": 29,
+				"itemName": "Fem/plant Stands",
+				"cubicFeet": 2
+			},
+			{
+				"id": 30,
+				"itemName": "File Cabinet 2 Drawer",
+				"cubicFeet": 10
+			},
+			{
+				"id": 31,
+				"itemName": "File Cabinet 4 Drawer",
+				"cubicFeet": 20
+			},
+			{
+				"id": 32,
+				"itemName": "Fireplace Equip.",
+				"cubicFeet": 5
+			},
+			{
+				"id": 33,
+				"itemName": "Folding Chairs",
+				"cubicFeet": 1
+			},
+			{
+				"id": 34,
+				"itemName": "Folding Table",
+				"cubicFeet": 2
+			},
+			{
+				"id": 35,
+				"itemName": "Footboard",
+				"cubicFeet": 5
+			},
+			{
+				"id": 36,
+				"itemName": "Footlockers",
+				"cubicFeet": 5
+			},
+			{
+				"id": 37,
+				"itemName": "Footstool",
+				"cubicFeet": 2
+			},
+			{
+				"id": 38,
+				"itemName": "Freezer 10 Or Less",
+				"cubicFeet": 30
+			},
+			{
+				"id": 39,
+				"itemName": "Freezer 11 To 15",
+				"cubicFeet": 45
+			},
+			{
+				"id": 40,
+				"itemName": "Freezer 16 Or Over",
+				"cubicFeet": 60
+			},
+			{
+				"id": 41,
+				"itemName": "Game Table",
+				"cubicFeet": 15
+			},
+			{
+				"id": 42,
+				"itemName": "Hall Tree Large",
+				"cubicFeet": 12
+			},
+			{
+				"id": 43,
+				"itemName": "Hall Tree Rack",
+				"cubicFeet": 2
+			},
+			{
+				"id": 44,
+				"itemName": "Hand Truck",
+				"cubicFeet": 5
+			},
+			{
+				"id": 45,
+				"itemName": "Headboard",
+				"cubicFeet": 10
+			},
+			{
+				"id": 46,
+				"itemName": "Heater, Gas/electric",
+				"cubicFeet": 5
+			},
+			{
+				"id": 47,
+				"itemName": "Hutch (top)",
+				"cubicFeet": 20
+			},
+			{
+				"id": 48,
+				"itemName": "Kitchen Chairs",
+				"cubicFeet": 5
+			},
+			{
+				"id": 49,
+				"itemName": "Ladder, 6 Step",
+				"cubicFeet": 3
+			},
+			{
+				"id": 50,
+				"itemName": "Ladder, 8 Metal",
+				"cubicFeet": 2
+			},
+			{
+				"id": 51,
+				"itemName": "Lamp, Floor",
+				"cubicFeet": 3
+			},
+			{
+				"id": 52,
+				"itemName": "Lamp, Pole",
+				"cubicFeet": 3
+			},
+			{
+				"id": 53,
+				"itemName": "Lawn Edger",
+				"cubicFeet": 3
+			},
+			{
+				"id": 54,
+				"itemName": "Mattress",
+				"cubicFeet": 10
+			},
+			{
+				"id": 55,
+				"itemName": "Microwave Oven",
+				"cubicFeet": 10
+			},
+			{
+				"id": 56,
+				"itemName": "Mirror",
+				"cubicFeet": 5
+			},
+			{
+				"id": 57,
+				"itemName": "Mirror Carton",
+				"cubicFeet": 3
+			},
+			{
+				"id": 58,
+				"itemName": "Monitor",
+				"cubicFeet": 4
+			},
+			{
+				"id": 59,
+				"itemName": "Outdoor Child Gym",
+				"cubicFeet": 20
+			},
+			{
+				"id": 60,
+				"itemName": "Outdoor Child Slide",
+				"cubicFeet": 10
+			},
+			{
+				"id": 61,
+				"itemName": "Outdoor Dry, Racks",
+				"cubicFeet": 5
+			},
+			{
+				"id": 62,
+				"itemName": "Outdoor Swings",
+				"cubicFeet": 30
+			},
+			{
+				"id": 63,
+				"itemName": "Personal Computer",
+				"cubicFeet": 4
+			},
+			{
+				"id": 64,
+				"itemName": "Piano Spinet/console",
+				"cubicFeet": 60
+			},
+			{
+				"id": 65,
+				"itemName": "Piano, Baby",
+				"cubicFeet": 70
+			},
+			{
+				"id": 66,
+				"itemName": "Piano, Parlor Gr.",
+				"cubicFeet": 80
+			},
+			{
+				"id": 67,
+				"itemName": "Picture (large Hanging)",
+				"cubicFeet": 8
+			},
+			{
+				"id": 68,
+				"itemName": "Picture (small Hanging)",
+				"cubicFeet": 4
+			},
+			{
+				"id": 69,
+				"itemName": "Playpen",
+				"cubicFeet": 10
+			},
+			{
+				"id": 70,
+				"itemName": "Pool Table Comp.",
+				"cubicFeet": 40
+			},
+			{
+				"id": 71,
+				"itemName": "Pool Table Slate",
+				"cubicFeet": 10
+			},
+			{
+				"id": 72,
+				"itemName": "Power Tool Hand Ea",
+				"cubicFeet": 3
+			},
+			{
+				"id": 73,
+				"itemName": "Power Tool Stand",
+				"cubicFeet": 15
+			},
+			{
+				"id": 74,
+				"itemName": "Printer",
+				"cubicFeet": 3
+			},
+			{
+				"id": 75,
+				"itemName": "Queen Bed",
+				"cubicFeet": 40
+			},
+			{
+				"id": 76,
+				"itemName": "Range 20 inch Wide",
+				"cubicFeet": 10
+			},
+			{
+				"id": 77,
+				"itemName": "Range 30 inch Wide",
+				"cubicFeet": 15
+			},
+			{
+				"id": 78,
+				"itemName": "Range 36 inch Wide",
+				"cubicFeet": 30
+			},
+			{
+				"id": 79,
+				"itemName": "Rec. Player, Port.",
+				"cubicFeet": 2
+			},
+			{
+				"id": 80,
+				"itemName": "Ref. 11 Cu. Ft./over",
+				"cubicFeet": 60
+			},
+			{
+				"id": 81,
+				"itemName": "Ref. 6 Cu. Ft. Or Less",
+				"cubicFeet": 30
+			},
+			{
+				"id": 82,
+				"itemName": "Ref. 7 To 10 Cu. Ft.",
+				"cubicFeet": 45
+			},
+			{
+				"id": 83,
+				"itemName": "Riding, Lawn",
+				"cubicFeet": 60
+			},
+			{
+				"id": 84,
+				"itemName": "Rugs, Large Or Pad",
+				"cubicFeet": 10
+			},
+			{
+				"id": 85,
+				"itemName": "Rugs, Lg. Roll/pad",
+				"cubicFeet": 10
+			},
+			{
+				"id": 86,
+				"itemName": "Rugs, Small Or Pad",
+				"cubicFeet": 3
+			},
+			{
+				"id": 87,
+				"itemName": "Sand Box",
+				"cubicFeet": 10
+			},
+			{
+				"id": 88,
+				"itemName": "Serving Cart",
+				"cubicFeet": 15
+			},
+			{
+				"id": 89,
+				"itemName": "Sewing Machine, Port",
+				"cubicFeet": 10
+			},
+			{
+				"id": 90,
+				"itemName": "Small Safe Under 100 Pounds",
+				"cubicFeet": 25
+			},
+			{
+				"id": 91,
+				"itemName": "Sofa, Hide, 4 Cush.",
+				"cubicFeet": 50
+			},
+			{
+				"id": 92,
+				"itemName": "Sofa, Rattan/wicker",
+				"cubicFeet": 3
+			},
+			{
+				"id": 93,
+				"itemName": "Sofa, Sec., Per Sec",
+				"cubicFeet": 10
+			},
+			{
+				"id": 94,
+				"itemName": "Stationary Shelving Unit",
+				"cubicFeet": 8
+			},
+			{
+				"id": 95,
+				"itemName": "Stereo Component",
+				"cubicFeet": 60
+			},
+			{
+				"id": 96,
+				"itemName": "Stereo, Console",
+				"cubicFeet": 8
+			},
+			{
+				"id": 97,
+				"itemName": "Stool",
+				"cubicFeet": 3
+			},
+			{
+				"id": 98,
+				"itemName": "Table Lamp",
+				"cubicFeet": 5
+			},
+			{
+				"id": 99,
+				"itemName": "Tables, Coffee",
+				"cubicFeet": 12
+			},
+			{
+				"id": 100,
+				"itemName": "Tables, Drop Leaf",
+				"cubicFeet": 15
+			},
+			{
+				"id": 101,
+				"itemName": "Tables, Occasional",
+				"cubicFeet": 15
+			},
+			{
+				"id": 102,
+				"itemName": "Telephone Stand",
+				"cubicFeet": 5
+			},
+			{
+				"id": 103,
+				"itemName": "Tire",
+				"cubicFeet": 3
+			},
+			{
+				"id": 104,
+				"itemName": "Tire W/rim",
+				"cubicFeet": 5
+			},
+			{
+				"id": 105,
+				"itemName": "Tool Box",
+				"cubicFeet": 3
+			},
+			{
+				"id": 106,
+				"itemName": "Trash Can",
+				"cubicFeet": 7
+			},
+			{
+				"id": 107,
+				"itemName": "Trash Compactor",
+				"cubicFeet": 15
+			},
+			{
+				"id": 108,
+				"itemName": "Trunk",
+				"cubicFeet": 5
+			},
+			{
+				"id": 109,
+				"itemName": "Tv Carton",
+				"cubicFeet": 15
+			},
+			{
+				"id": 110,
+				"itemName": "Tv Tray",
+				"cubicFeet": 3
+			},
+			{
+				"id": 111,
+				"itemName": "Tv, Big Screen",
+				"cubicFeet": 40
+			},
+			{
+				"id": 112,
+				"itemName": "Tv, Combination",
+				"cubicFeet": 25
+			},
+			{
+				"id": 113,
+				"itemName": "Tv, Console",
+				"cubicFeet": 15
+			},
+			{
+				"id": 114,
+				"itemName": "Tv, Portable",
+				"cubicFeet": 5
+			},
+			{
+				"id": 115,
+				"itemName": "Tv, Stand(large)",
+				"cubicFeet": 10
+			},
+			{
+				"id": 116,
+				"itemName": "Tv, Stand(small)",
+				"cubicFeet": 3
+			},
+			{
+				"id": 117,
+				"itemName": "Tv, Table Model",
+				"cubicFeet": 10
+			},
+			{
+				"id": 118,
+				"itemName": "Utility Cabinet",
+				"cubicFeet": 10
+			}
+		]
+	},
+	{
+		"id": 12,
+		"category": "Kitchen",
+		"items": [
+			{
+				"id": 1,
+				"itemName": "11 And Over Cube",
+				"cubicFeet": 50
+			},
+			{
+				"id": 2,
+				"itemName": "6 Cube Or Less",
+				"cubicFeet": 30
+			},
+			{
+				"id": 3,
+				"itemName": "7 To 10 Cube",
+				"cubicFeet": 40
+			},
+			{
+				"id": 4,
+				"itemName": "Bakers Rack",
+				"cubicFeet": 15
+			},
+			{
+				"id": 5,
+				"itemName": "Chair, Kitchen",
+				"cubicFeet": 5
+			},
+			{
+				"id": 6,
+				"itemName": "Freezer, Large",
+				"cubicFeet": 35
+			},
+			{
+				"id": 7,
+				"itemName": "Freezer, Medium",
+				"cubicFeet": 25
+			},
+			{
+				"id": 8,
+				"itemName": "Freezer, Small",
+				"cubicFeet": 10
+			},
+			{
+				"id": 9,
+				"itemName": "Freezer, Xl",
+				"cubicFeet": 48
+			},
+			{
+				"id": 10,
+				"itemName": "Garbage Can",
+				"cubicFeet": 3
+			},
+			{
+				"id": 11,
+				"itemName": "Ironer/mangle",
+				"cubicFeet": 12
+			},
+			{
+				"id": 12,
+				"itemName": "Kitchen Cabinet",
+				"cubicFeet": 20
+			},
+			{
+				"id": 13,
+				"itemName": "Kitchen Island",
+				"cubicFeet": 15
+			},
+			{
+				"id": 14,
+				"itemName": "Microwave Cart",
+				"cubicFeet": 5
+			},
+			{
+				"id": 15,
+				"itemName": "Microwave Stand/cart",
+				"cubicFeet": 8
+			},
+			{
+				"id": 16,
+				"itemName": "Microwave, Standard",
+				"cubicFeet": 5
+			},
+			{
+				"id": 17,
+				"itemName": "Pub Chair",
+				"cubicFeet": 5
+			},
+			{
+				"id": 18,
+				"itemName": "Pub Table",
+				"cubicFeet": 15
+			},
+			{
+				"id": 19,
+				"itemName": "Range, Gas/elec",
+				"cubicFeet": 30
+			},
+			{
+				"id": 20,
+				"itemName": "Refrigerator Dormity",
+				"cubicFeet": 10
+			},
+			{
+				"id": 21,
+				"itemName": "Refrigerator, Side/side",
+				"cubicFeet": 35
+			},
+			{
+				"id": 22,
+				"itemName": "Refrigerator, Upright",
+				"cubicFeet": 25
+			},
+			{
+				"id": 23,
+				"itemName": "Rug, Runner",
+				"cubicFeet": 2
+			},
+			{
+				"id": 24,
+				"itemName": "Stove",
+				"cubicFeet": 20
+			},
+			{
+				"id": 25,
+				"itemName": "Table, Kitchen",
+				"cubicFeet": 20
+			},
+			{
+				"id": 26,
+				"itemName": "Table, Kitchen (sm.)",
+				"cubicFeet": 15
+			},
+			{
+				"id": 27,
+				"itemName": "Vacuum",
+				"cubicFeet": 5
+			},
+			{
+				"id": 28,
+				"itemName": "Washing Machine",
+				"cubicFeet": 25
+			},
+			{
+				"id": 29,
+				"itemName": "Water Cooler",
+				"cubicFeet": 7
+			}
+		]
+	},
+	{
+		"id": 13,
+		"category": "Play room",
+		"items": [
+			{
+				"id": 1,
+				"itemName": "Air Hockey Table",
+				"cubicFeet": 24
+			},
+			{
+				"id": 2,
+				"itemName": "Pool Table (reg)",
+				"cubicFeet": 83
+			},
+			{
+				"id": 3,
+				"itemName": "Pool Table (slate Top)",
+				"cubicFeet": 83
+			},
+			{
+				"id": 4,
+				"itemName": "Portable Basketball Hoop",
+				"cubicFeet": 5
+			}
+		]
+	},
+	{
+		"id": 14,
+		"category": "Living & Family Rooms",
+		"items": [
+			{
+				"id": 1,
+				"itemName": "Bar, 3x4x2",
+				"cubicFeet": 24
+			},
+			{
+				"id": 2,
+				"itemName": "Bar, Portable",
+				"cubicFeet": 15
+			},
+			{
+				"id": 3,
+				"itemName": "Bar, Stool",
+				"cubicFeet": 3
+			},
+			{
+				"id": 4,
+				"itemName": "Bench, Fireside, Piano",
+				"cubicFeet": 5
+			},
+			{
+				"id": 5,
+				"itemName": "Book Shelf, Small",
+				"cubicFeet": 5
+			},
+			{
+				"id": 6,
+				"itemName": "Bookcase Lg",
+				"cubicFeet": 15
+			},
+			{
+				"id": 7,
+				"itemName": "Bookcase Med",
+				"cubicFeet": 10
+			},
+			{
+				"id": 8,
+				"itemName": "Bookcase Sm",
+				"cubicFeet": 5
+			},
+			{
+				"id": 9,
+				"itemName": "Bookshelves, Sectional",
+				"cubicFeet": 5
+			},
+			{
+				"id": 10,
+				"itemName": "Carpet Lg",
+				"cubicFeet": 10
+			},
+			{
+				"id": 11,
+				"itemName": "Carpet Sm",
+				"cubicFeet": 5
+			},
+			{
+				"id": 12,
+				"itemName": "Carpet Xl",
+				"cubicFeet": 15
+			},
+			{
+				"id": 13,
+				"itemName": "Cd Holder",
+				"cubicFeet": 10
+			},
+			{
+				"id": 14,
+				"itemName": "Chair Glider",
+				"cubicFeet": 8
+			},
+			{
+				"id": 15,
+				"itemName": "Chair, Arm",
+				"cubicFeet": 10
+			},
+			{
+				"id": 16,
+				"itemName": "Chair, Club",
+				"cubicFeet": 10
+			},
+			{
+				"id": 17,
+				"itemName": "Chair, Lounge",
+				"cubicFeet": 10
+			},
+			{
+				"id": 18,
+				"itemName": "Chair, Occasional",
+				"cubicFeet": 15
+			},
+			{
+				"id": 19,
+				"itemName": "Chair, Overstuffed",
+				"cubicFeet": 25
+			},
+			{
+				"id": 20,
+				"itemName": "Chair, Papizon",
+				"cubicFeet": 10
+			},
+			{
+				"id": 21,
+				"itemName": "Chair, Recliner",
+				"cubicFeet": 13
+			},
+			{
+				"id": 22,
+				"itemName": "Chair, Rocker",
+				"cubicFeet": 12
+			},
+			{
+				"id": 23,
+				"itemName": "Chair, Straight",
+				"cubicFeet": 5
+			},
+			{
+				"id": 24,
+				"itemName": "Chair, Wicker",
+				"cubicFeet": 7
+			},
+			{
+				"id": 25,
+				"itemName": "Chaise Lounge",
+				"cubicFeet": 10
+			},
+			{
+				"id": 26,
+				"itemName": "Chandelier, Lg.",
+				"cubicFeet": 15
+			},
+			{
+				"id": 27,
+				"itemName": "Chandelier, Sm.",
+				"cubicFeet": 12
+			},
+			{
+				"id": 28,
+				"itemName": "China Cab, 1 Piece",
+				"cubicFeet": 30
+			},
+			{
+				"id": 29,
+				"itemName": "China Cab, 2 Piece",
+				"cubicFeet": 35
+			},
+			{
+				"id": 30,
+				"itemName": "Clock, Grandfather",
+				"cubicFeet": 20
+			},
+			{
+				"id": 31,
+				"itemName": "Clock, Grandmother",
+				"cubicFeet": 15
+			},
+			{
+				"id": 32,
+				"itemName": "Clock, Wall",
+				"cubicFeet": 3
+			},
+			{
+				"id": 33,
+				"itemName": "Credenza",
+				"cubicFeet": 35
+			},
+			{
+				"id": 34,
+				"itemName": "Davenport",
+				"cubicFeet": 35
+			},
+			{
+				"id": 35,
+				"itemName": "Day Bed",
+				"cubicFeet": 30
+			},
+			{
+				"id": 36,
+				"itemName": "Dvd/vcr Player",
+				"cubicFeet": 3
+			},
+			{
+				"id": 37,
+				"itemName": "Electric Fireplace, Large",
+				"cubicFeet": 15
+			},
+			{
+				"id": 38,
+				"itemName": "Electric Fireplace, Large",
+				"cubicFeet": 15
+			},
+			{
+				"id": 39,
+				"itemName": "Electric Fireplace, Small",
+				"cubicFeet": 10
+			},
+			{
+				"id": 40,
+				"itemName": "Entertainment Center Xl",
+				"cubicFeet": 40
+			},
+			{
+				"id": 41,
+				"itemName": "Entertainment Center, Lg",
+				"cubicFeet": 30
+			},
+			{
+				"id": 42,
+				"itemName": "Entertainment Center, Med",
+				"cubicFeet": 20
+			},
+			{
+				"id": 43,
+				"itemName": "Entertainment Center, Sm",
+				"cubicFeet": 12
+			},
+			{
+				"id": 44,
+				"itemName": "Fire Place Equip.",
+				"cubicFeet": 5
+			},
+			{
+				"id": 45,
+				"itemName": "Floor Speaker, Lg.",
+				"cubicFeet": 6
+			},
+			{
+				"id": 46,
+				"itemName": "Floor Speaker, Regular",
+				"cubicFeet": 4
+			},
+			{
+				"id": 47,
+				"itemName": "Foot Stool",
+				"cubicFeet": 2
+			},
+			{
+				"id": 48,
+				"itemName": "Lamp, Floor Or Pole",
+				"cubicFeet": 3
+			},
+			{
+				"id": 49,
+				"itemName": "Magazine Rack",
+				"cubicFeet": 2
+			},
+			{
+				"id": 50,
+				"itemName": "Music Cabinet",
+				"cubicFeet": 10
+			},
+			{
+				"id": 51,
+				"itemName": "Oriental Screen",
+				"cubicFeet": 10
+			},
+			{
+				"id": 52,
+				"itemName": "Piano Bench",
+				"cubicFeet": 5
+			},
+			{
+				"id": 53,
+				"itemName": "Piano, Baby Gr Or Upr",
+				"cubicFeet": 70
+			},
+			{
+				"id": 54,
+				"itemName": "Piano, Babygrand",
+				"cubicFeet": 60
+			},
+			{
+				"id": 55,
+				"itemName": "Piano, Grand",
+				"cubicFeet": 70
+			},
+			{
+				"id": 56,
+				"itemName": "Piano, Parlor Grand",
+				"cubicFeet": 80
+			},
+			{
+				"id": 57,
+				"itemName": "Piano, Spinet",
+				"cubicFeet": 60
+			},
+			{
+				"id": 58,
+				"itemName": "Piano, Upright",
+				"cubicFeet": 50
+			},
+			{
+				"id": 59,
+				"itemName": "Radio, Table",
+				"cubicFeet": 2
+			},
+			{
+				"id": 60,
+				"itemName": "Record Player, Portable",
+				"cubicFeet": 2
+			},
+			{
+				"id": 61,
+				"itemName": "Room Divider",
+				"cubicFeet": 10
+			},
+			{
+				"id": 62,
+				"itemName": "Rug Area Xl",
+				"cubicFeet": 15
+			},
+			{
+				"id": 63,
+				"itemName": "Rug, Area (sm.)",
+				"cubicFeet": 5
+			},
+			{
+				"id": 64,
+				"itemName": "Rug, Large",
+				"cubicFeet": 10
+			},
+			{
+				"id": 65,
+				"itemName": "Rugs/pad Large",
+				"cubicFeet": 10
+			},
+			{
+				"id": 66,
+				"itemName": "Rugs/pad Small",
+				"cubicFeet": 3
+			},
+			{
+				"id": 67,
+				"itemName": "Sofa 3 Seat",
+				"cubicFeet": 40
+			},
+			{
+				"id": 68,
+				"itemName": "Sofa Rattan/wicker",
+				"cubicFeet": 10
+			},
+			{
+				"id": 69,
+				"itemName": "Sofa Table",
+				"cubicFeet": 10
+			},
+			{
+				"id": 70,
+				"itemName": "Sofa, 1 Chair",
+				"cubicFeet": 0
+			},
+			{
+				"id": 71,
+				"itemName": "Sofa, 2 Cushion",
+				"cubicFeet": 35
+			},
+			{
+				"id": 72,
+				"itemName": "Sofa, 3 Cushion",
+				"cubicFeet": 50
+			},
+			{
+				"id": 73,
+				"itemName": "Sofa, 3 Seat W/recliners",
+				"cubicFeet": 45
+			},
+			{
+				"id": 74,
+				"itemName": "Sofa, 3 Seat/bed",
+				"cubicFeet": 45
+			},
+			{
+				"id": 75,
+				"itemName": "Sofa, 4 Cushion",
+				"cubicFeet": 60
+			},
+			{
+				"id": 76,
+				"itemName": "Sofa, Love Seat",
+				"cubicFeet": 33
+			},
+			{
+				"id": 77,
+				"itemName": "Sofa, Love Seat W/recliners",
+				"cubicFeet": 35
+			},
+			{
+				"id": 78,
+				"itemName": "Sofa, Sectional, Ea.sec",
+				"cubicFeet": 30
+			},
+			{
+				"id": 79,
+				"itemName": "Sofa, Sectional-2 Piece",
+				"cubicFeet": 70
+			},
+			{
+				"id": 80,
+				"itemName": "Sofa, Sectional-3 Piece",
+				"cubicFeet": 90
+			},
+			{
+				"id": 81,
+				"itemName": "Sofa, Sectional-4 Piece",
+				"cubicFeet": 120
+			},
+			{
+				"id": 82,
+				"itemName": "Sofa, Sectional-5 Piece",
+				"cubicFeet": 150
+			},
+			{
+				"id": 83,
+				"itemName": "Stereo",
+				"cubicFeet": 20
+			},
+			{
+				"id": 84,
+				"itemName": "Stereo Cabinet",
+				"cubicFeet": 15
+			},
+			{
+				"id": 85,
+				"itemName": "Stereo System (pbo)",
+				"cubicFeet": 5
+			},
+			{
+				"id": 86,
+				"itemName": "Stool Bar",
+				"cubicFeet": 3
+			},
+			{
+				"id": 87,
+				"itemName": "Studio Couch, Hidabed",
+				"cubicFeet": 50
+			},
+			{
+				"id": 88,
+				"itemName": "Table, Coffee",
+				"cubicFeet": 10
+			},
+			{
+				"id": 89,
+				"itemName": "Table, Coffee, End, Nest",
+				"cubicFeet": 5
+			},
+			{
+				"id": 90,
+				"itemName": "Table, Drop Leaf,occasional",
+				"cubicFeet": 12
+			},
+			{
+				"id": 91,
+				"itemName": "Table, Enterance",
+				"cubicFeet": 15
+			},
+			{
+				"id": 92,
+				"itemName": "Table, Telephone",
+				"cubicFeet": 3
+			},
+			{
+				"id": 93,
+				"itemName": "Telephone Stand & Chair",
+				"cubicFeet": 5
+			},
+			{
+				"id": 94,
+				"itemName": "Television, Combination",
+				"cubicFeet": 25
+			},
+			{
+				"id": 95,
+				"itemName": "Television, Table Model",
+				"cubicFeet": 10
+			},
+			{
+				"id": 96,
+				"itemName": "Television/ Radio Console",
+				"cubicFeet": 15
+			},
+			{
+				"id": 97,
+				"itemName": "Tv 20 (or Smaller)",
+				"cubicFeet": 5
+			},
+			{
+				"id": 98,
+				"itemName": "Tv Big Screen W/back",
+				"cubicFeet": 45
+			},
+			{
+				"id": 99,
+				"itemName": "Tv Flat Screen 60+",
+				"cubicFeet": 20
+			},
+			{
+				"id": 100,
+				"itemName": "Tv Flat Screen- 15-32",
+				"cubicFeet": 10
+			},
+			{
+				"id": 101,
+				"itemName": "Tv Flat Screen- 33-60",
+				"cubicFeet": 15
+			},
+			{
+				"id": 102,
+				"itemName": "Tv Stand",
+				"cubicFeet": 5
+			},
+			{
+				"id": 103,
+				"itemName": "Tv Tray Table Folding",
+				"cubicFeet": 2
+			},
+			{
+				"id": 104,
+				"itemName": "Tv,big Screen Over 52inch",
+				"cubicFeet": 40
+			},
+			{
+				"id": 105,
+				"itemName": "Vase, Standing",
+				"cubicFeet": 7
+			},
+			{
+				"id": 106,
+				"itemName": "Victrola",
+				"cubicFeet": 15
+			},
+			{
+				"id": 107,
+				"itemName": "Wall Unit 1 Piece",
+				"cubicFeet": 25
+			},
+			{
+				"id": 108,
+				"itemName": "Wall Unit 2 Piece",
+				"cubicFeet": 50
+			},
+			{
+				"id": 109,
+				"itemName": "Wall Unit 3 Piece",
+				"cubicFeet": 75
+			},
+			{
+				"id": 110,
+				"itemName": "Wall Unit 4 Piece",
+				"cubicFeet": 100
+			}
+		]
+	},
+	{
+		"id": 16,
+		"category": "Patio/Garage",
+		"items": [
+			{
+				"id": 1,
+				"itemName": "3/4 Wheelers",
+				"cubicFeet": 50
+			},
+			{
+				"id": 2,
+				"itemName": "Arm Saw",
+				"cubicFeet": 15
+			},
+			{
+				"id": 3,
+				"itemName": "Atv (+600lbs) - Lg",
+				"cubicFeet": 75
+			},
+			{
+				"id": 4,
+				"itemName": "Atv (250-300cc) - Sm",
+				"cubicFeet": 63
+			},
+			{
+				"id": 5,
+				"itemName": "Atv (300-500cc) - Med",
+				"cubicFeet": 70
+			},
+			{
+				"id": 6,
+				"itemName": "Band Saw (bench Top)",
+				"cubicFeet": 7
+			},
+			{
+				"id": 7,
+				"itemName": "Barbecue Grill, Lg",
+				"cubicFeet": 10
+			},
+			{
+				"id": 8,
+				"itemName": "Barbecue Grill, Small",
+				"cubicFeet": 5
+			},
+			{
+				"id": 9,
+				"itemName": "Bench, Large",
+				"cubicFeet": 10
+			},
+			{
+				"id": 10,
+				"itemName": "Bench, Small",
+				"cubicFeet": 5
+			},
+			{
+				"id": 11,
+				"itemName": "Cabinet, Utility",
+				"cubicFeet": 10
+			},
+			{
+				"id": 12,
+				"itemName": "Canoe,kayak,scull.",
+				"cubicFeet": 50
+			},
+			{
+				"id": 13,
+				"itemName": "Car Ramps",
+				"cubicFeet": 8
+			},
+			{
+				"id": 14,
+				"itemName": "Chain Saw",
+				"cubicFeet": 5
+			},
+			{
+				"id": 15,
+				"itemName": "Chair, Stackable",
+				"cubicFeet": 3
+			},
+			{
+				"id": 16,
+				"itemName": "Chop Saw",
+				"cubicFeet": 10
+			},
+			{
+				"id": 17,
+				"itemName": "Dolley",
+				"cubicFeet": 5
+			},
+			{
+				"id": 18,
+				"itemName": "Drill Press",
+				"cubicFeet": 10
+			},
+			{
+				"id": 19,
+				"itemName": "Excercise Bike",
+				"cubicFeet": 16
+			},
+			{
+				"id": 20,
+				"itemName": "Excercise Equip Large",
+				"cubicFeet": 40
+			},
+			{
+				"id": 21,
+				"itemName": "Excercise Equip Small",
+				"cubicFeet": 20
+			},
+			{
+				"id": 22,
+				"itemName": "Floor Jack",
+				"cubicFeet": 10
+			},
+			{
+				"id": 23,
+				"itemName": "Garden Hose",
+				"cubicFeet": 5
+			},
+			{
+				"id": 24,
+				"itemName": "Garden Tools",
+				"cubicFeet": 7
+			},
+			{
+				"id": 25,
+				"itemName": "Generator",
+				"cubicFeet": 10
+			},
+			{
+				"id": 26,
+				"itemName": "Golf Cart",
+				"cubicFeet": 40
+			},
+			{
+				"id": 27,
+				"itemName": "Husky Rolling Tool Box",
+				"cubicFeet": 40
+			},
+			{
+				"id": 28,
+				"itemName": "Jack Stand",
+				"cubicFeet": 7
+			},
+			{
+				"id": 29,
+				"itemName": "Ladder To 10",
+				"cubicFeet": 10
+			},
+			{
+				"id": 30,
+				"itemName": "Ladder To 7",
+				"cubicFeet": 5
+			},
+			{
+				"id": 31,
+				"itemName": "Large Air Compressor",
+				"cubicFeet": 12
+			},
+			{
+				"id": 32,
+				"itemName": "Large Generator",
+				"cubicFeet": 15
+			},
+			{
+				"id": 33,
+				"itemName": "Lawnmower, Push",
+				"cubicFeet": 15
+			},
+			{
+				"id": 34,
+				"itemName": "Lawnmower, Ride",
+				"cubicFeet": 50
+			},
+			{
+				"id": 35,
+				"itemName": "Lounge Chair",
+				"cubicFeet": 8
+			},
+			{
+				"id": 36,
+				"itemName": "Motorcycle, Large",
+				"cubicFeet": 150
+			},
+			{
+				"id": 37,
+				"itemName": "Motorcycle, Small",
+				"cubicFeet": 58
+			},
+			{
+				"id": 38,
+				"itemName": "Patio Chair",
+				"cubicFeet": 5
+			},
+			{
+				"id": 39,
+				"itemName": "Patio End Table",
+				"cubicFeet": 5
+			},
+			{
+				"id": 40,
+				"itemName": "Patio Love Seat",
+				"cubicFeet": 20
+			},
+			{
+				"id": 41,
+				"itemName": "Patio Sofa",
+				"cubicFeet": 30
+			},
+			{
+				"id": 42,
+				"itemName": "Patio Swing 2 Seater",
+				"cubicFeet": 15
+			},
+			{
+				"id": 43,
+				"itemName": "Patio Table",
+				"cubicFeet": 15
+			},
+			{
+				"id": 44,
+				"itemName": "Patio Umbrella",
+				"cubicFeet": 5
+			},
+			{
+				"id": 45,
+				"itemName": "Picnic Table W/benches Lg",
+				"cubicFeet": 40
+			},
+			{
+				"id": 46,
+				"itemName": "Planer",
+				"cubicFeet": 8
+			},
+			{
+				"id": 47,
+				"itemName": "Power Washer",
+				"cubicFeet": 8
+			},
+			{
+				"id": 48,
+				"itemName": "Pressure Washer",
+				"cubicFeet": 8
+			},
+			{
+				"id": 49,
+				"itemName": "Push Broom",
+				"cubicFeet": 2
+			},
+			{
+				"id": 50,
+				"itemName": "Rack, Bike",
+				"cubicFeet": 4
+			},
+			{
+				"id": 51,
+				"itemName": "Rolling Tool Box",
+				"cubicFeet": 20
+			},
+			{
+				"id": 52,
+				"itemName": "Router Table",
+				"cubicFeet": 10
+			},
+			{
+				"id": 53,
+				"itemName": "Saw Horses",
+				"cubicFeet": 7
+			},
+			{
+				"id": 54,
+				"itemName": "Shop Vac",
+				"cubicFeet": 6
+			},
+			{
+				"id": 55,
+				"itemName": "Sledge Hammer",
+				"cubicFeet": 2
+			},
+			{
+				"id": 56,
+				"itemName": "Small Patio Table",
+				"cubicFeet": 12
+			},
+			{
+				"id": 57,
+				"itemName": "Snow Blower",
+				"cubicFeet": 12
+			},
+			{
+				"id": 58,
+				"itemName": "Snow Mobile",
+				"cubicFeet": 60
+			},
+			{
+				"id": 59,
+				"itemName": "Steel Vise",
+				"cubicFeet": 5
+			},
+			{
+				"id": 60,
+				"itemName": "Step Ladder",
+				"cubicFeet": 3
+			},
+			{
+				"id": 61,
+				"itemName": "Table Saw",
+				"cubicFeet": 10
+			},
+			{
+				"id": 62,
+				"itemName": "Table, Ping Pong (table Tennis)",
+				"cubicFeet": 25
+			},
+			{
+				"id": 63,
+				"itemName": "Tile Saw",
+				"cubicFeet": 10
+			},
+			{
+				"id": 64,
+				"itemName": "Tool Box, Lg. (up To 300 Lbs)",
+				"cubicFeet": 20
+			},
+			{
+				"id": 65,
+				"itemName": "Tool Box, Sm.",
+				"cubicFeet": 5
+			},
+			{
+				"id": 66,
+				"itemName": "Tools (general)",
+				"cubicFeet": 7
+			},
+			{
+				"id": 67,
+				"itemName": "Trampoline Lg (disassembled)",
+				"cubicFeet": 15
+			},
+			{
+				"id": 68,
+				"itemName": "Trampoline, Small",
+				"cubicFeet": 10
+			},
+			{
+				"id": 69,
+				"itemName": "Tree Artificial, Lg.",
+				"cubicFeet": 12
+			},
+			{
+				"id": 70,
+				"itemName": "Tree Artificial, Sm.",
+				"cubicFeet": 7
+			},
+			{
+				"id": 71,
+				"itemName": "Trunk, Large",
+				"cubicFeet": 10
+			},
+			{
+				"id": 72,
+				"itemName": "Trunk, Small",
+				"cubicFeet": 5
+			},
+			{
+				"id": 73,
+				"itemName": "Utility Trailer",
+				"cubicFeet": 50
+			},
+			{
+				"id": 74,
+				"itemName": "Vacuum Cleaner",
+				"cubicFeet": 3
+			},
+			{
+				"id": 75,
+				"itemName": "Wagon",
+				"cubicFeet": 5
+			},
+			{
+				"id": 76,
+				"itemName": "Weed Wacker",
+				"cubicFeet": 5
+			},
+			{
+				"id": 77,
+				"itemName": "Wheelbarrow",
+				"cubicFeet": 6
+			},
+			{
+				"id": 78,
+				"itemName": "Wicker 2 Seater",
+				"cubicFeet": 15
+			},
+			{
+				"id": 79,
+				"itemName": "Wicker 3 Seater",
+				"cubicFeet": 20
+			},
+			{
+				"id": 80,
+				"itemName": "Wicker Chair",
+				"cubicFeet": 6
+			},
+			{
+				"id": 81,
+				"itemName": "Wicker End Table",
+				"cubicFeet": 5
+			},
+			{
+				"id": 82,
+				"itemName": "Wood (pieces)",
+				"cubicFeet": 3
+			}
+		]
+	},
+	{
+		"id": 17,
+		"category": "Porch, Outdoor, Furniture & Equipment",
+		"items": [
+			{
+				"id": 1,
+				"itemName": "Barbecue/port Grill",
+				"cubicFeet": 10
+			},
+			{
+				"id": 2,
+				"itemName": "Birdbath",
+				"cubicFeet": 5
+			},
+			{
+				"id": 3,
+				"itemName": "Chair, Lawn",
+				"cubicFeet": 5
+			},
+			{
+				"id": 4,
+				"itemName": "Chair, Porch",
+				"cubicFeet": 10
+			},
+			{
+				"id": 5,
+				"itemName": "Clothes Line",
+				"cubicFeet": 5
+			},
+			{
+				"id": 6,
+				"itemName": "Clothes, Dryer/rack",
+				"cubicFeet": 5
+			},
+			{
+				"id": 7,
+				"itemName": "Garden Hose & Tools",
+				"cubicFeet": 10
+			},
+			{
+				"id": 8,
+				"itemName": "Glider Or Settee",
+				"cubicFeet": 20
+			},
+			{
+				"id": 9,
+				"itemName": "Ladder, Extension",
+				"cubicFeet": 10
+			},
+			{
+				"id": 10,
+				"itemName": "Lawn Mower, Hand",
+				"cubicFeet": 5
+			},
+			{
+				"id": 11,
+				"itemName": "Lawn Mower, Power",
+				"cubicFeet": 15
+			},
+			{
+				"id": 12,
+				"itemName": "Lawn Mower, Riding",
+				"cubicFeet": 35
+			},
+			{
+				"id": 13,
+				"itemName": "Leaf Sweeper",
+				"cubicFeet": 5
+			},
+			{
+				"id": 14,
+				"itemName": "Outdoor Childs Gym",
+				"cubicFeet": 20
+			},
+			{
+				"id": 15,
+				"itemName": "Outdoor Childs Slide",
+				"cubicFeet": 10
+			},
+			{
+				"id": 16,
+				"itemName": "Outdoor Drying Rack",
+				"cubicFeet": 5
+			},
+			{
+				"id": 17,
+				"itemName": "Outdoor Swing",
+				"cubicFeet": 30
+			},
+			{
+				"id": 18,
+				"itemName": "Picnic Bench",
+				"cubicFeet": 5
+			},
+			{
+				"id": 19,
+				"itemName": "Picnic Table",
+				"cubicFeet": 20
+			},
+			{
+				"id": 20,
+				"itemName": "Porch Chair",
+				"cubicFeet": 10
+			},
+			{
+				"id": 21,
+				"itemName": "Roller, Lawn",
+				"cubicFeet": 15
+			},
+			{
+				"id": 22,
+				"itemName": "Rug, Small",
+				"cubicFeet": 3
+			},
+			{
+				"id": 23,
+				"itemName": "Sandbox",
+				"cubicFeet": 10
+			},
+			{
+				"id": 24,
+				"itemName": "Settee",
+				"cubicFeet": 20
+			},
+			{
+				"id": 25,
+				"itemName": "Spreader",
+				"cubicFeet": 1
+			},
+			{
+				"id": 26,
+				"itemName": "Umbrella",
+				"cubicFeet": 5
+			},
+			{
+				"id": 27,
+				"itemName": "Wheel Barrow",
+				"cubicFeet": 8
+			}
+		]
+	},
+	{
+		"id": 18,
+		"category": "Boxes",
+		"items": [
+			{
+				"id": 1,
+				"itemName": "Box Med",
+				"cubicFeet": 3
+			},
+			{
+				"id": 2,
+				"itemName": "Box Sm",
+				"cubicFeet": 1
+			},
+			{
+				"id": 3,
+				"itemName": "Box XL",
+				"cubicFeet": 7
+			},
+			{
+				"id": 4,
+				"itemName": "Box XLg",
+				"cubicFeet": 10
+			}
+		]
+	}
+]

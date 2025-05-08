@@ -1,0 +1,161 @@
+.container {
+	display: flex;
+	justify-content: space-between;
+	gap: 70px;
+
+	>div {
+		width: 100%;
+		// max-width: 600px;
+
+		&.leftSide {
+			h2 {
+				margin-top: 20px;
+
+				span {
+					position: relative;
+					z-index: 1;
+
+					&::before {
+						position: absolute;
+						right: 0;
+						top: 68%;
+						width: 100%;
+						height: 100%;
+						z-index: -1;
+						content: '';
+						background-image: url('../../../../public/images/about/companyStory/story-bg.svg');
+						background-size: contain;
+						background-repeat: no-repeat;
+					}
+				}
+			}
+
+			p {
+				width: 550px;
+				margin-top: 20px;
+			}
+
+			>img {
+				width: 100%;
+				margin-top: 70px;
+				border-radius: 25px;
+				object-fit: cover;
+				max-height: 640px;
+
+			}
+
+			>div {
+				position: absolute;
+				bottom: -6%;
+				left: -30%;
+				z-index: -1;
+				width: 760px;
+				height: 420px;
+				background: #f1f4ff;
+				border-radius: 0px 25px 25px 0px;
+			}
+		}
+
+		&.rightSide {
+			.bg {
+				display: none;
+			}
+
+			>img {
+				width: 100%;
+				border-radius: 25px;
+				max-height: 551px;
+			}
+
+			p {
+				margin-top: 70px;
+			}
+
+			.buttons {
+				margin-top: 40px;
+				display: flex;
+				gap: 30px;
+			}
+		}
+	}
+}
+.preTitle {
+	font-size: 18px;
+	font-weight: 700;
+	color: #f58d1d;
+	text-transform: uppercase;
+	display: block;
+}
+@media only screen and (max-width: 768px) {
+    .preTitle {
+		font-size: 10px;
+		line-height: 12px;
+	}
+	.container {
+		flex-direction: column;
+		gap: 0;
+
+		img {
+			height: auto;
+		}
+
+		>div {
+			&.leftSide {
+				h2 {
+					margin-top: 10px;
+
+					br {
+						display: none;
+					}
+				}
+
+				p {
+					width: 100%;
+				}
+
+				>img {
+					margin-top: 50px;
+				}
+
+				>div {
+					display: none;
+				}
+			}
+
+			&.rightSide {
+				position: relative;
+				display: flex;
+				flex-direction: column;
+
+				.bg {
+					display: inline;
+					position: absolute;
+					bottom: -6%;
+					left: -30%;
+					z-index: -1;
+					width: 380px;
+					height: 225px;
+					background: #f1f4ff;
+					border-radius: 0px 25px 25px 0px;
+				}
+
+				p {
+					order: 1;
+					margin-top: 50px;
+				}
+
+				>.buttons {
+					order: 2;
+					flex-direction: column;
+					margin-top: 50px;
+					gap: 20px;
+				}
+
+				>img {
+					order: 3;
+					margin-top: 50px;
+				}
+			}
+		}
+	}
+}

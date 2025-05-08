@@ -1,0 +1,106 @@
+.cards {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	margin-top: 274px;
+	margin-bottom: 150px;
+	padding: 0;
+
+	.card {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 25px;
+
+		width: 100%;
+		border-radius: 25px;
+		padding: 50px 40px;
+		background: #f1f4ff;
+
+		@media (max-width: 768px) {
+			flex-direction: row;
+			align-items: flex-start;
+
+			gap: 15px;
+
+			padding: 20px;
+			padding-bottom: 30px;
+		}
+
+		h3 {
+			font-size: 24px;
+		}
+
+		p {
+			font-size: 16px;
+
+			@media (min-width: 769px) {
+				max-width: 250px;
+				text-align: center;
+			}
+
+			@media (max-width: 768px) {
+				font-size: 14px !important;
+			}
+		}
+
+		img {
+			width: 70px;
+			height: 70px;
+
+			@media (max-width: 768px) {
+				width: 50px;
+				height: 50px;
+			}
+		}
+	}
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+
+	@media (min-width: 769px) {
+		align-items: center;
+	}
+
+	@media (max-width: 768px) {
+		gap: 5px;
+		margin-top: 9px;
+	}
+}
+
+.textMobile {
+	display: none;
+}
+.cardTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+@media only screen and (max-width: 375px) {
+	.textMobile {
+		font-size: 28px !important;
+		white-space: none;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+    .cardTitle {
+        font-size: 1rem;
+    }
+	.cards {
+		padding: 0 20px;
+		flex-direction: column;
+		gap: 10px;
+		margin-top: 70px;
+		margin-bottom: 70px;
+
+		.card {
+			h3 {
+				font-size: 16px;
+			}
+		}
+	}
+}

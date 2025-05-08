@@ -1,0 +1,286 @@
+.section {
+	margin-top: 0;
+}
+.h3{
+    display: block;
+    font-weight: 700;
+    font-size: 28px;
+    color: unset;
+    line-height: unset;
+}
+.container {
+	display: flex;
+	justify-content: space-between;
+	gap: 100px;
+
+	.content {
+		width: 880px;
+
+		a {
+			text-decoration: underline;
+		}
+
+		h2,
+		span[class="h3"] {
+			margin-top: 50px !important;
+
+			&:first-child {
+				margin-top: 0 !important;
+			}
+		}
+
+		h2 {
+			font-size: 24px;
+		}
+
+		span[class="h4"] {
+			margin-top: 40px;
+			color: #272727;
+			text-transform: capitalize;
+		}
+
+		p {
+			margin-top: 25px;
+			&:first-child {
+				margin-top: 0 !important;
+			}
+		}
+
+		p,
+		li {
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 165%;
+		}
+
+		ul {
+			margin-top: 10px;
+		}
+
+		li {
+			margin-left: 30px;
+		}
+	}
+
+	.aside_content {
+		grid-area: aside;
+		width: 340px;
+
+		> div {
+			height: 100%;
+			position: relative;
+
+			.subcontent {
+				display: flex;
+				flex-direction: column;
+				gap: 30px;
+				position: sticky;
+			}
+
+			.getAQuote {
+				background: #436ae5;
+				border-radius: 25px;
+				padding: 40px 30px;
+
+				.h3 {
+					font-size: 22px;
+					margin-bottom: 20px;
+					color: #fff;
+				}
+
+				p {
+					color: #fff;
+					font-weight: 500;
+					margin-bottom: 30px;
+				}
+
+				button {
+					width: 100%;
+				}
+			}
+
+			.checklist {
+				border-radius: 25px;
+				background: #eaeeff;
+				padding: 40px 30px;
+
+				display: flex;
+				flex-direction: column;
+				gap: 30px;
+
+				> img {
+					width: 128px;
+					height: auto;
+				}
+
+				> div {
+					display: flex;
+					flex-direction: column;
+					gap: 20px;
+
+					.h3 {
+						font-size: 22px;
+					}
+				}
+
+				a {
+					width: 100%;
+				}
+			}
+
+			.latestArticle {
+				&:hover {
+					background: #e2e8ff;
+				}
+
+				transition: 0.3s;
+				overflow: hidden;
+				border-radius: 25px;
+				background: #eaeeff;
+				position: relative;
+
+				.latestArticleText {
+					padding: 40px 30px;
+				}
+
+				.topbar {
+					display: flex;
+					align-items: center;
+					gap: 20px;
+					margin-bottom: 25px;
+
+					.tag {
+						span {
+							font-size: 18px;
+							color: #fff;
+							padding: 7px 23px;
+							background: #436ae5;
+							border-radius: 10px;
+						}
+					}
+
+					.date {
+						line-height: normal;
+						display: flex;
+						flex-direction: column;
+						gap: 5px;
+
+						span {
+							font-size: 14px;
+						}
+					}
+
+					p {
+						font-size: 16px;
+					}
+				}
+
+				.imageContainer {
+					height: 185px;
+					width: 100%;
+					position: relative;
+				}
+
+				.h3 {
+					font-size: 22px;
+					display: -webkit-box;
+					-webkit-box-orient: vertical;
+					-webkit-line-clamp: 3;
+					overflow: hidden;
+
+					a {
+						&::before {
+							content: "";
+							position: absolute;
+							bottom: 0;
+							left: 0;
+							right: 0;
+							top: 0;
+							width: 100%;
+							height: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+    .h3 {
+        font-size: 29px;
+    }
+	.section {
+		margin-top: 140px;
+		.container {
+			.content {
+				width: 100%;
+
+				> h2,
+				> span[class="h3"] {
+					margin-top: 60px !important;
+				}
+
+				h2 {
+					font-size: 28px;
+				}
+
+				span[class="h3"] {
+					font-size: 22px;
+				}
+
+				span[class="h4"] {
+					font-size: 18px;
+				}
+
+				> ul,
+				> ol {
+					margin-left: 0;
+					list-style-position: inside;
+				}
+
+				p {
+					margin-top: 25px;
+					font-size: 14px !important;
+				}
+
+				li {
+					font-size: 14px;
+				}
+
+				.block {
+					margin-top: 25px;
+
+					&.quote {
+						padding: 50px 25px;
+						margin-top: 60px;
+						margin-bottom: 75px;
+						border-radius: 25px;
+
+						p {
+							font-size: 20px;
+							text-align: center;
+						}
+					}
+				}
+
+				.image {
+					img {
+						width: 100%;
+						height: auto;
+						object-fit: cover;
+					}
+
+					> .imageAnnotation {
+						font-size: 16px;
+						text-align: center;
+					}
+				}
+			}
+
+			.aside_content {
+				display: none;
+			}
+		}
+	}
+}

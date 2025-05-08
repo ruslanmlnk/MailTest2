@@ -1,0 +1,53 @@
+.wrapper {
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 25px;
+	width: 25px;
+	border-radius: 5px;
+
+	.line_1 {
+		width: 12px;
+		height: 2px;
+		border-radius: 5px;
+	}
+}
+
+.wrapper_plus {
+	cursor: pointer;
+	position: relative;
+	height: 25px;
+	width: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.line_1 {
+		width: 15px;
+		height: 2px;
+		border-radius: 5px;
+		transform: rotate(90deg);
+	}
+	.line_2 {
+		position: absolute;
+		width: 15px;
+		height: 3px;
+		border-radius: 5px;
+		top: 11px;
+		margin: 0px;
+		margin: auto;
+	}
+}
+
+.transparent {
+	& div {
+		background: #436ae5;
+	}
+}
+.blue {
+	background: #436ae5;
+	& div {
+		background: #fff;
+	}
+}

@@ -1,0 +1,164 @@
+.container {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0;
+	margin-top: 0;
+	padding-top: 25px;
+	padding-bottom: 40px;
+	background-color: #fff;
+	border-radius: 25px;
+	margin-bottom: 120px;
+}
+
+.section_ {
+	height: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0;
+	margin-top: 0;
+	padding-top: 25px;
+	padding-bottom: 40px;
+	background-color: #fff;
+	border-radius: 25px;
+	max-width: 1200px;
+	margin: 0px auto;
+}
+
+.container > h2 {
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 40px;
+	margin-top: 60px;
+	text-align: center;
+}
+.container > div {
+	display: flex;
+	justify-content: space-between;
+	gap: 40px;
+	margin-top: 40px;
+	width: 1120px;
+}
+.container > div .extra {
+	background-color: #436ae5;
+	border-radius: 25px;
+	border: 1px solid #436ae5;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: 0.3s;
+	padding: 35px 60px;
+	width: 50%;
+	cursor: pointer;
+}
+.container > div .extra.active {
+	background-color: #fff;
+	transition: 0.3s;
+}
+.container > div .extra.active h2 {
+	color: #436ae5;
+}
+.container > div .extra.active p {
+	color: #436ae5;
+}
+.container > div .extra.active .choose > .checkbox {
+	background-image: url("../../../../public/images/calculator/checkbox-checked.svg");
+	background-size: contain;
+	background-position: center;
+	background-color: #436ae5;
+	color: #fff;
+	font-weight: 700;
+	font-size: 18px;
+	border: 0;
+	outline: 0;
+	transition: 0.3s;
+}
+.container > div .extra.active .choose > .checkbox:hover {
+	background-color: rgba(67, 106, 229, 0.5647058824);
+	transition: 0.3s;
+}
+.container > div .extra > img {
+	height: 110px;
+	width: auto;
+}
+.container > div .extra h2 {
+	font-size: 35px;
+	margin-top: 25px;
+	color: #fff;
+	text-align: center;
+}
+.container > div .extra p {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 18px;
+	color: #fff;
+}
+.container > div .extra .choose {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin-top: 35px;
+}
+.container > div .extra .choose > .checkbox {
+	height: 40px;
+	width: 40px;
+	border-radius: 10px;
+	border: 1px solid #fff;
+	font-weight: 700;
+	font-size: 18px;
+	transition: 0.3s;
+}
+.container > div .extra .choose > .checkbox:hover {
+	background-color: rgba(255, 255, 255, 0.5960784314);
+	transition: 0.3s;
+}
+@media only screen and (max-width: 768px) {
+	.section_ {
+		padding-bottom: 0px;
+	}
+	.container {
+		width: 100%;
+		padding-bottom: 0px;
+		margin-bottom: 30px;
+	}
+	.container > h2 {
+		font-size: 28px;
+		line-height: 36px;
+		text-align: center;
+		padding: 0 20px;
+	}
+	.container > div {
+		flex-direction: column;
+		gap: 30px;
+		margin-top: 30px;
+		width: 100%;
+		padding: 0 25px;
+	}
+	.container > div .extra {
+		width: 100%;
+		padding: 30px 15px;
+	}
+	.container > div .extra > img {
+		height: 100px;
+	}
+	.container > div .extra h2 {
+		font-size: 23px;
+		margin-top: 20px;
+	}
+	.container > div .extra p {
+		margin-top: 15px;
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 435px) {
+	.container {
+		margin-top: 0px;
+	}
+	.container h2 {
+		margin-top: 0px;
+	}
+}

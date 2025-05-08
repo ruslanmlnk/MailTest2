@@ -1,0 +1,33 @@
+.wrapper {
+	width: 100%;
+	padding: 25px 30px 25px 60px;
+	border-radius: 25px;
+	border-left: 10px solid #f58d1d;
+	background: #f1f4ff;
+
+	& a {
+		text-decoration: underline;
+	}
+
+	& img {
+		width: 100%;
+		height: 500px;
+		border-radius: 10px;
+	}
+}
+.container {
+	// margin-top: -50px;
+	padding-top: 0px;
+	margin-bottom: 35px;
+	position: relative;
+	z-index: 1;
+}
+
+@media (max-width: 768px) {
+	.wrapper {
+		padding: 25px 30px 25px 30px;
+	}
+	.articleBlock {
+		margin-top: 70px;
+	}
+}
